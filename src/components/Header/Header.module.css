@@ -1,0 +1,16 @@
+.header {
+  /* @include tabletMin {
+        padding: 29px 32px;
+      }
+    
+      @include desktop {
+        padding: 29px 52px;
+      } */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  background-color: #c9c5a7;
+  margin: 0 auto;
+}

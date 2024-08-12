@@ -4,13 +4,23 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: #ebebeb;
-  color: #2c2b29;
-  font-family: -apple-system, BlinkMacSystemFont, "Montserrat", sans-serif;
+body,
+button {
+  background-color: #fffbdd;
+  color: #263e24;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto Slab", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* margin: 0 auto; */
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 code {
@@ -40,7 +50,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #403730;
+  color: #263e24;
 }
 
 address {
