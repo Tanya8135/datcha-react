@@ -1,0 +1,33 @@
+.menuToggle {
+  margin: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: none;
+  color: var(--icon-close-BM);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    background-color: transparent;
+  }
+}
+
+.menuCloseIcon {
+  min-width: 30px;
+  min-height: 30px;
+}
+
+.menuClose {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 5px;
+  z-index: 1111;
+
+  &:hover,
+  &:active {
+    color: var(--accent-color);
+  }
+}

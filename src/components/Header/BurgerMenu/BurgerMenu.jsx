@@ -1,6 +1,8 @@
 import React from "react";
 
 import css from "./BurgerMenu.module.css";
+import BtnClose from "./BtnClose";
+import BurgerMenuContent from "./BurgerMenuContent";
 
 function BurgerMenu({ isMenuOpen, toggleMenu }) {
   return (
@@ -10,9 +12,12 @@ function BurgerMenu({ isMenuOpen, toggleMenu }) {
       }`}
     >
       {/* btn-function */}
-      {isMenuOpen && <div className={css.burgerMenu}>
-        
-        </div>}
+      {isMenuOpen && (
+        <div className={css.burgerMenu}>
+          <BtnClose toggleMenu={toggleMenu} />
+          <BurgerMenuContent />
+        </div>
+      )}
     </div>
   );
 }

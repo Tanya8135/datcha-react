@@ -13,6 +13,7 @@
 }
 
 .burgerMenu {
+  position: relative;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
