@@ -71,7 +71,7 @@ function BurgerMenuContent() {
               target="_blank"
               rel="noopener nofollow noreferrer"
             >
-              <img src="./images/logos_google-maps.svg" alt="map" />
+              <img src="./img/logos_google-maps.svg" alt="map" />
             </a>
           </div>
           <div className={css.burgerMenuAddressName}>

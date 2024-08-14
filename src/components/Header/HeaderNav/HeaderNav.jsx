@@ -5,9 +5,10 @@ import css from "./HeaderNav.module.css";
 import BurgerMenu from "../BurgerMenu";
 
 function HeaderNav() {
-  const [isMenuOpen, setManuOpen] = useState(false);
+  const [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
-    setManuOpen(!isMenuOpen);
+    setMenuOpen(!isMenuOpen);
+    console.log("Menu state:", !isMenuOpen);
   };
   return (
     <div>
