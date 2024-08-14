@@ -1,6 +1,5 @@
-import React from "react";
-
 import css from "./BurgerMenuContent.module.css";
+import mapIcon from "../../../../img/logos_google-maps.svg";
 
 function BurgerMenuContent() {
   return (
@@ -71,7 +70,7 @@ function BurgerMenuContent() {
               target="_blank"
               rel="noopener nofollow noreferrer"
             >
-              <img src="./img/logos_google-maps.svg" alt="map" />
+              <img src={mapIcon} alt="map" />
             </a>
           </div>
           <div className={css.burgerMenuAddressName}>
