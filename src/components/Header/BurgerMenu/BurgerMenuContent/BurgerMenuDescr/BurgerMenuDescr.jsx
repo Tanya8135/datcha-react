@@ -22,6 +22,9 @@ function BurgerMenuDescr() {
             <p className={css.burgerMenuDescrText}>Перебування з заселенням</p>
             <p className={css.burgerMenuDescrPrice}>400 грн</p>
           </li>
+          <li className={`${css.burgerMenuDescrItem} ${css.burgerMenuDescrItemCenter}`}>
+            <p className={css.burgerMenuDescrTextItalic}>(Ціна вказана за одну особу)</p>
+          </li>
         </ul>
 
         <ul className={css.burgerMenuSpetificList}>
