@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../../img/logoDatchaWord.svg";
+import logo from "@img/logoDatchaWord.svg";
 
 import css from "./HeaderLogo.module.css";
 

@@ -1,5 +1,5 @@
 import css from "./BurgerMenuContacts.module.scss";
-import mapIcon from "../../../../../img/logos_google-maps.svg";
+import mapIcon from "@img/logos_google-maps.svg";
 
 function BurgerMenuContacts() {
   return (
