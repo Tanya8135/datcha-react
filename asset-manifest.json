@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/datcha-react/static/css/main.f855e6bc.css",
-    "main.js": "/datcha-react/static/js/main.f6b0bb9d.js",
-    "static/js/453.0fd57b05.chunk.js": "/datcha-react/static/js/453.0fd57b05.chunk.js",
-    "static/media/logo.svg": "/datcha-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/datcha-react/static/css/main.50f90e0d.css",
+    "main.js": "/datcha-react/static/js/main.635eb4e1.js",
+    "static/media/logoDatchaWord.svg": "/datcha-react/static/media/logoDatchaWord.6c5811f0f611cc60f63782f65a3e5e9c.svg",
+    "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
-    "main.f855e6bc.css.map": "/datcha-react/static/css/main.f855e6bc.css.map",
-    "main.f6b0bb9d.js.map": "/datcha-react/static/js/main.f6b0bb9d.js.map",
-    "453.0fd57b05.chunk.js.map": "/datcha-react/static/js/453.0fd57b05.chunk.js.map"
+    "main.50f90e0d.css.map": "/datcha-react/static/css/main.50f90e0d.css.map",
+    "main.635eb4e1.js.map": "/datcha-react/static/js/main.635eb4e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.f6b0bb9d.js"
+    "static/css/main.50f90e0d.css",
+    "static/js/main.635eb4e1.js"
   ]
 }
