@@ -1,4 +1,4 @@
-import css from "./BurgerMenuDescr.module.css";
+import css from "./BurgerMenuDescr.module.scss";
 
 function BurgerMenuDescr() {
   return (

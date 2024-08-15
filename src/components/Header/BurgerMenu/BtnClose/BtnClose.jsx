@@ -1,6 +1,6 @@
 import React from "react";
 
-import css from "./BtnClose.module.css";
+import css from "./BtnClose.module.scss";
 import { IoCloseOutline } from "react-icons/io5";
 
 function BtnClose({ toggleMenu }) {

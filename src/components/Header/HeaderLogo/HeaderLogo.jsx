@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import logo from "@img/logoDatchaWord.svg";
 
-import css from "./HeaderLogo.module.css";
+import css from "./HeaderLogo.module.scss";
 
 function HeaderLogo() {
   return (

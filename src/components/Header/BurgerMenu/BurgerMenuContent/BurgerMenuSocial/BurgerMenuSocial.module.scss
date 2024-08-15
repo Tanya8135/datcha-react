@@ -1,0 +1,27 @@
+@import '@css/index.scss';
+
+.burgerMenuSocial {
+  display: flex;
+  justify-content: center;
+}
+
+.burgerMenuSocialList {
+  padding: 0;
+  list-style: none;
+}
+
+.burgerMenuSocialItem {
+  display: inline-flex;
+}
+
+.menuSocialLink {
+  @include font(12px, 300, 0.01em);
+
+  color: $secondary-color;
+  text-decoration: none;
+}
+
+.burgerMenuSocialBorder {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  margin: 0 10px 0 10px;
+}
