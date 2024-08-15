@@ -1,6 +1,7 @@
 import React from "react";
 
-import css from "./BurgerMenu.module.css";
+// import css from "./BurgerMenu.module.css";
+import css from './BurgerMenu.module.scss';
 import BtnClose from "./BtnClose";
 import BurgerMenuContent from "./BurgerMenuContent";
 

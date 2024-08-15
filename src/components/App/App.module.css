@@ -2,7 +2,7 @@
   text-align: center;
 } */
 
-.AppLogo {
+/* .AppLogo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,9 +11,9 @@
   .AppLogo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.AppHeader {
+/* .AppHeader {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -35,4 +35,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
