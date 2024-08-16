@@ -58,6 +58,119 @@
   }
 }
 
+.textModal {
+  padding-bottom: 32px;
+}
+
+.textModalItem {
+  @include font(20px, 300, 0.05em);
+
+  & {
+    color: $secondary-color;
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.psTextModal {
+  @include font(20px, 400, 0.01em);
+}
+
+.subtitleModal {
+  @include font(30px, 100, 0.02em);
+
+  & {
+    color: $primary-text;
+    padding-bottom: 16px;
+  }
+}
+
+.modalDescr {
+  padding-bottom: 52px;
+}
+
+.modalDescrItem {
+  @include font(18px, 300, 00.05em);
+
+  & {
+    margin-bottom: 12px;
+    color: $secondary-color;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.modalReservedBox {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.subtitleModalSecond {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.modalContactBox {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.contactModal {
+  @include font(25px, 300, 0.05em);
+
+  & {
+    color: $secondary-color;
+    margin-right: 32px;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+.socialModalList {
+  display: flex;
+  justify-content: center;
+}
+
+.socialModalItem {
+  margin-right: 8px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.socialModalLink {
+  @include short-font(16px, 0.01em);
+
+  & {
+    color: $primary-text;
+  }
+}
+
+.socialModalBorder {
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+  margin: 0 10px 0 10px;
+}
+
+.socialModal {
+  display: flex;
+  justify-content: center;
+  padding-top: 52px;
+  padding-bottom: 32px;
+}
+
 .modalClose {
   @include desktop {
     cursor: pointer;
