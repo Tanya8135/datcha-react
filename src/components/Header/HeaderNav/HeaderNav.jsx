@@ -3,6 +3,7 @@ import { FiMenu } from 'react-icons/fi';
 
 import css from './HeaderNav.module.scss';
 import BurgerMenu from '../BurgerMenu';
+import Modal from './Modal';
 
 function HeaderNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -10,6 +11,14 @@ function HeaderNav() {
     setMenuOpen(!isMenuOpen);
     console.log('Menu state:', !isMenuOpen);
   };
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsOpen(!isOpen);
+    console.log('Menu state:', !isOpen);
+  };
+
   return (
     <div>
       <div className={css.headerNav}>
@@ -17,7 +26,14 @@ function HeaderNav() {
           <ul className={css.navSite}>
             <li className={css.navSiteItem}>
               {/* eslint-disable-next-line */}
-              <a className={`${css.navSiteLink} ${css.btnPrice}`}>Прайс</a>
+              {/* <a className={`${css.navSiteLink} ${css.btnPrice}`}>Прайс</a> */}
+              <button
+                type="button"
+                onClick={toggleModal}
+                className={`${css.navSiteLink} ${css.btnPrice}`}
+              >
+                Прайс
+              </button>
             </li>
             <li className={css.navSiteItem}>
               <a href="#contacts" className={css.navSiteLink}>
@@ -47,6 +63,8 @@ function HeaderNav() {
           </button>
         </div>
       </div>
+      <Modal isOpen={isOpen} toggleModal={toggleModal} />
+
       <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
     </div>
   );
