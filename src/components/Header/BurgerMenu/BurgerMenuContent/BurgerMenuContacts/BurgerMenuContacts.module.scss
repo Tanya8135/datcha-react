@@ -20,8 +20,11 @@
   }
 
   @include font(20px, 300, 0.01em);
-  color: $secondary-color;
-  text-decoration: none;
+
+  & {
+    color: $secondary-color;
+    text-decoration: none;
+  }
 }
 
 .burgerMenuAddressBox {

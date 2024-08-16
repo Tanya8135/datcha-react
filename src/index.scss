@@ -102,7 +102,7 @@ button {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  // overflow: hidden; /* NOT scrolling */
   /* margin: 0 auto; */
 }
 
