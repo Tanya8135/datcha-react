@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/datcha-react/static/css/main.33cc6fa1.css",
-    "main.js": "/datcha-react/static/js/main.d3f771ec.js",
+    "main.css": "/datcha-react/static/css/main.f1909b6d.css",
+    "main.js": "/datcha-react/static/js/main.98fafad6.js",
     "static/media/alley-fon@2-1180.jpg": "/datcha-react/static/media/alley-fon@2-1180.60d620e3e6ebf1e82b95.jpg",
     "static/media/alley-fon@2-1024.jpg": "/datcha-react/static/media/alley-fon@2-1024.13d30c98b24e3de7bec6.jpg",
     "static/media/alley-fon@2-414.jpg": "/datcha-react/static/media/alley-fon@2-414.38069a4921b134d1a2d5.jpg",
@@ -31,11 +31,11 @@
     "static/media/marck-script-v20-latin-regular.woff2": "/datcha-react/static/media/marck-script-v20-latin-regular.7c11d28094db2889f383.woff2",
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
-    "main.33cc6fa1.css.map": "/datcha-react/static/css/main.33cc6fa1.css.map",
-    "main.d3f771ec.js.map": "/datcha-react/static/js/main.d3f771ec.js.map"
+    "main.f1909b6d.css.map": "/datcha-react/static/css/main.f1909b6d.css.map",
+    "main.98fafad6.js.map": "/datcha-react/static/js/main.98fafad6.js.map"
   },
   "entrypoints": [
-    "static/css/main.33cc6fa1.css",
-    "static/js/main.d3f771ec.js"
+    "static/css/main.f1909b6d.css",
+    "static/js/main.98fafad6.js"
   ]
 }
