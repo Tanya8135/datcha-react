@@ -1,15 +1,41 @@
 {
   "files": {
-    "main.css": "/datcha-react/static/css/main.50f90e0d.css",
-    "main.js": "/datcha-react/static/js/main.635eb4e1.js",
+    "main.css": "/datcha-react/static/css/main.33cc6fa1.css",
+    "main.js": "/datcha-react/static/js/main.d3f771ec.js",
+    "static/media/alley-fon@2-1180.jpg": "/datcha-react/static/media/alley-fon@2-1180.60d620e3e6ebf1e82b95.jpg",
+    "static/media/alley-fon@2-1024.jpg": "/datcha-react/static/media/alley-fon@2-1024.13d30c98b24e3de7bec6.jpg",
+    "static/media/alley-fon@2-414.jpg": "/datcha-react/static/media/alley-fon@2-414.38069a4921b134d1a2d5.jpg",
+    "static/media/alley-fon-1180.jpg": "/datcha-react/static/media/alley-fon-1180.c9559b7e58c350940402.jpg",
+    "static/media/alley-fon-414.jpg": "/datcha-react/static/media/alley-fon-414.216fb3e1e2b50de1c0f6.jpg",
+    "static/media/alley-fon-1024.jpg": "/datcha-react/static/media/alley-fon-1024.e9c8b7a750f539a37f01.jpg",
+    "static/media/eb-garamond-v27-cyrillic_latin-600.woff": "/datcha-react/static/media/eb-garamond-v27-cyrillic_latin-600.9cf1ae92c2c2ed9f762c.woff",
+    "static/media/eb-garamond-v27-cyrillic_latin-500.woff": "/datcha-react/static/media/eb-garamond-v27-cyrillic_latin-500.62e91ca1d294978894cb.woff",
+    "static/media/eb-garamond-v27-cyrillic_latin-regular.woff": "/datcha-react/static/media/eb-garamond-v27-cyrillic_latin-regular.321f9f36c3a620a49bf3.woff",
+    "static/media/eb-garamond-v27-cyrillic_latin-500.woff2": "/datcha-react/static/media/eb-garamond-v27-cyrillic_latin-500.6f2ca107d36aec58b0b4.woff2",
+    "static/media/eb-garamond-v27-cyrillic_latin-600.woff2": "/datcha-react/static/media/eb-garamond-v27-cyrillic_latin-600.1793983b9a17b9776ceb.woff2",
+    "static/media/eb-garamond-v27-cyrillic_latin-regular.woff2": "/datcha-react/static/media/eb-garamond-v27-cyrillic_latin-regular.ec00e7f19276d05e83ad.woff2",
+    "static/media/roboto-slab-v34-cyrillic_latin-800.woff": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-800.dee4b41cc9a5c3966641.woff",
+    "static/media/roboto-slab-v34-cyrillic_latin-600.woff": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-600.b69bfac566f8bdfa0c1c.woff",
+    "static/media/roboto-slab-v34-cyrillic_latin-700.woff": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-700.92250664196e2f852c74.woff",
+    "static/media/roboto-slab-v34-cyrillic_latin-300.woff": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-300.12ba7ce8938164e27004.woff",
+    "static/media/roboto-slab-v34-cyrillic_latin-regular.woff": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-regular.3b246b2d1df219aa087d.woff",
+    "static/media/roboto-slab-v34-cyrillic_latin-100.woff": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-100.2145b1dafaadcc11fbc2.woff",
+    "static/media/roboto-slab-v34-cyrillic_latin-800.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-800.2b9658a78dd9cfc97e71.woff2",
+    "static/media/roboto-slab-v34-cyrillic_latin-600.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-600.a458cb6429051e9c940c.woff2",
+    "static/media/roboto-slab-v34-cyrillic_latin-700.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-700.0f21d86d42e542221af5.woff2",
+    "static/media/roboto-slab-v34-cyrillic_latin-300.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-300.fb49077c68b930e29d9a.woff2",
+    "static/media/roboto-slab-v34-cyrillic_latin-regular.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-regular.1d463dc254768896b7c2.woff2",
+    "static/media/roboto-slab-v34-cyrillic_latin-100.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-100.a84525e4b9775adc1199.woff2",
     "static/media/logoDatchaWord.svg": "/datcha-react/static/media/logoDatchaWord.6c5811f0f611cc60f63782f65a3e5e9c.svg",
+    "static/media/marck-script-v20-latin-regular.woff": "/datcha-react/static/media/marck-script-v20-latin-regular.732f99ddeb7622ff2e88.woff",
+    "static/media/marck-script-v20-latin-regular.woff2": "/datcha-react/static/media/marck-script-v20-latin-regular.7c11d28094db2889f383.woff2",
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
-    "main.50f90e0d.css.map": "/datcha-react/static/css/main.50f90e0d.css.map",
-    "main.635eb4e1.js.map": "/datcha-react/static/js/main.635eb4e1.js.map"
+    "main.33cc6fa1.css.map": "/datcha-react/static/css/main.33cc6fa1.css.map",
+    "main.d3f771ec.js.map": "/datcha-react/static/js/main.d3f771ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.50f90e0d.css",
-    "static/js/main.635eb4e1.js"
+    "static/css/main.33cc6fa1.css",
+    "static/js/main.d3f771ec.js"
   ]
 }
