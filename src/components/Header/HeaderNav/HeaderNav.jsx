@@ -1,19 +1,41 @@
-import React, { useState } from "react";
-import { FiMenu } from "react-icons/fi";
+import React, { useState } from 'react';
+import { FiMenu } from 'react-icons/fi';
 
-import css from "./HeaderNav.module.scss";
-import BurgerMenu from "../BurgerMenu";
+import css from './HeaderNav.module.scss';
+import BurgerMenu from '../BurgerMenu';
 
 function HeaderNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-    console.log("Menu state:", !isMenuOpen);
+    console.log('Menu state:', !isMenuOpen);
   };
   return (
     <div>
       <div className={css.headerNav}>
         <div className={css.headerNavBox}>
+          <ul className={css.navSite}>
+            <li className={css.navSiteItem}>
+              {/* eslint-disable-next-line */}
+              <a className={`${css.navSiteLink} ${css.btnPrice}`}>Прайс</a>
+            </li>
+            <li className={css.navSiteItem}>
+              <a href="#contacts" className={css.navSiteLink}>
+                Контакти
+              </a>
+            </li>
+            <li className={css.navSiteItem}>
+              <a href="#about" className={css.navSiteLink}>
+                Про нас
+              </a>
+            </li>
+            <li className={css.navSiteItem}>
+              <a href="#foto" className={css.navSiteLink}>
+                Фото
+              </a>
+            </li>
+          </ul>
+
           <button
             type="button"
             className={css.btnBurgerMenu}

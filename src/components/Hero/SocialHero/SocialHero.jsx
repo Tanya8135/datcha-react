@@ -1,3 +1,7 @@
+import { LuInstagram } from 'react-icons/lu';
+import { RiFacebookFill } from 'react-icons/ri';
+import { BsTelegram } from 'react-icons/bs';
+
 import css from './SocialHero.module.scss';
 
 function SocialHero() {
@@ -6,12 +10,11 @@ function SocialHero() {
       <ul className={css.socialHeroSet}>
         <li className={css.socialHeroSetItem}>
           <a
-            href="https://www.instagram.com/baza_otdykha_kr/"
+            href="https://www.instagram.com/baza_vidpochynku_kr?igsh=MXNrcDZ1cWwzZXNhbQ%3D%3D&utm_source=qr"
             target="_blank"
             rel="noopener nofollow noreferrer"
-            className={css.iconColor}
           >
-            test
+            <LuInstagram className={css.iconColor} />
           </a>
         </li>
         <li className={css.socialHeroSetItem}>
@@ -19,9 +22,8 @@ function SocialHero() {
             href="https://www.facebook.com/datcha.afalina"
             target="_blank"
             rel="noopener nofollow noreferrer"
-            className={css.iconColor}
           >
-            test
+            <RiFacebookFill className={css.iconColor} />
           </a>
         </li>
         <li className={css.socialHeroSetItem}>
@@ -29,9 +31,8 @@ function SocialHero() {
             href="https://t.me/datcha_bv"
             target="_blank"
             rel="noopener nofollow noreferrer"
-            className={css.iconColor}
           >
-            test
+            <BsTelegram className={css.iconColor} />
           </a>
         </li>
       </ul>

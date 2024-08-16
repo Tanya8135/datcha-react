@@ -1,11 +1,13 @@
 @import '@css/index.scss';
 
 .contactHero {
+  & {
+    display: none;
+  }
+
   @include tabletMin {
     display: block;
   }
-
-  display: none;
 }
 
 .contactHeroItem {
@@ -19,8 +21,17 @@
   }
 }
 
+.phoneIcon {
+  min-width: 30px;
+  min-height: 33px;
+  color: $icon-social;
+}
+
 .contactHeroLink {
   @include font(20px, 800, 0.08em);
-  color: $icon-social;
-  margin-left: 4px;
+
+  & {
+    color: $icon-social;
+    margin-left: 4px;
+  }
 }

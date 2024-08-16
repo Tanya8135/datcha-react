@@ -1,17 +1,72 @@
 @import '@css/index.scss';
 
+.navSite {
+  & {
+    display: none;
+  }
+
+  @include tabletMin {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.navSiteItem {
+  & {
+    display: none;
+  }
+
+  @include tabletMin {
+    display: block;
+    margin-right: 32px;
+  }
+
+  @include desktop {
+    margin-right: 68px;
+  }
+}
+
+.navSiteLink {
+  & {
+    display: none;
+  }
+
+  @include tabletMin {
+    display: block;
+    @include short-font(20px, 0.05em);
+  }
+}
+
+.btnPrice {
+  & {
+    display: none;
+  }
+
+  @include tabletMin {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+
+  @include desktop {
+    cursor: pointer;
+  }
+}
+
 .btnBurgerMenu {
   @include tabletMin {
     display: none;
   }
 
-  fill: $icon-burger-menu;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  cursor: none;
-  margin: 0;
-  padding: 15px 15px;
+  & {
+    fill: $icon-burger-menu;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: none;
+    margin: 0;
+    padding: 15px 15px;
+  }
 }
 
 .btnBurgerMenuIcon {

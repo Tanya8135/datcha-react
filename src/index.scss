@@ -75,14 +75,18 @@ $short-line: rgba(33, 33, 33, 0.2);
 }
 
 @mixin short-font($fs, $lp) {
-  font-size: $fs;
-  letter-spacing: $lp;
+  & {
+    font-size: $fs;
+    letter-spacing: $lp;
+  }
 }
 
 @mixin font($fs, $fw, $ls) {
-  font-size: $fs;
-  font-weight: $fw;
-  letter-spacing: $ls;
+  & {
+    font-size: $fs;
+    font-weight: $fw;
+    letter-spacing: $ls;
+  }
 }
 
 html {
@@ -93,7 +97,7 @@ body,
 button {
   background-color: #fffbdd;
   color: #263e24;
-  font-family: -apple-system, BlinkMacSystemFont, 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
