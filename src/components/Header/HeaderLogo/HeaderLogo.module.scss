@@ -1,6 +1,18 @@
+@import '@css/index.scss';
+
 .logoHeader {
   padding: 12px 0;
   outline: none;
   border: none;
   cursor: none;
+}
+
+.logoImg {
+  & {
+    width: 170px;
+  }
+
+  @include tabletMin {
+    width: 200px;
+  }
 }

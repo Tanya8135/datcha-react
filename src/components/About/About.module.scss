@@ -1,0 +1,79 @@
+@import '@css/index.scss';
+
+.about {
+  & {
+    padding: 52px 0;
+  }
+
+  @include tablet {
+    max-width: 738px;
+    margin: 0 auto;
+  }
+
+  @include desktop {
+    max-width: 1170px;
+    margin: 0 auto;
+    // padding: 92px 0;
+  }
+}
+
+.titleAbout {
+  & {
+    margin-left: 20px;
+    text-shadow: 3px 4px 10px $title-shadow;
+    color: $primary-text;
+    padding: 0 0 18px 38px;
+  }
+
+  @include desktop {
+    font-size: 45px;
+    padding: 0 0 32px 38px;
+  }
+
+  @include tablet {
+    @include short-font(32px, 0.05em);
+    & {
+      padding: 0 0 20px 0;
+    }
+  }
+
+  @include font(32px, 700, 0.05em);
+}
+
+.textAbout {
+  & {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    text-align: left;
+    color: $secondary-color;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0 5px 0 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include desktop {
+    font-size: 28px;
+  }
+
+  @include tablet {
+    font-size: 23px;
+  }
+}
+
+.textAccentAbout {
+  & {
+    font-size: 18px;
+  }
+
+  @include desktop {
+    font-size: 28px;
+  }
+
+  @include tablet {
+    font-size: 24px;
+  }
+}
