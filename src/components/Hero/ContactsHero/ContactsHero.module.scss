@@ -1,0 +1,26 @@
+@import '@css/index.scss';
+
+.contactHero {
+  @include tabletMin {
+    display: block;
+  }
+
+  display: none;
+}
+
+.contactHeroItem {
+  display: flex;
+  align-items: center;
+  fill: $icon-social;
+  margin-bottom: 12px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.contactHeroLink {
+  @include font(20px, 800, 0.08em);
+  color: $icon-social;
+  margin-left: 4px;
+}

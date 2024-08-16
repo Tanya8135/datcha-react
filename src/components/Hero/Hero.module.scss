@@ -1,0 +1,110 @@
+@import '@css/index.scss';
+@import '../../fonts.scss';
+
+.hero {
+  // max-width: 414px;
+  max-width: 1024px;
+  background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
+    url('~@images/alley-fon-414.jpg');
+
+  @include retina {
+    background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
+      url('~@images/alley-fon@2-414.jpg');
+  }
+
+  @include tabletMin {
+    // max-width: 1024px;
+    background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
+      url('~@images/alley-fon-1024.jpg');
+
+    @include retina {
+      background-image: linear-gradient(
+          $bg-fon-transparent,
+          $bg-fon-transparent
+        ),
+        url('~@images/alley-fon@2-1024.jpg');
+    }
+  }
+
+  @include desktop {
+    max-width: 1600px;
+    background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
+      url('~@images/alley-fon-1180.jpg');
+
+    @include retina {
+      background-image: linear-gradient(
+          $bg-fon-transparent,
+          $bg-fon-transparent
+        ),
+        url('~@images/alley-fon@2-1180.jpg');
+    }
+  }
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0;
+}
+
+.heroContaier {
+  @include tabletMin {
+    display: block;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+.titleHero {
+  @include desktop {
+    font-size: 190px;
+    padding-top: 150px;
+  }
+
+  @include tablet {
+    @include short-font(140px, 0.25em);
+  }
+
+  @include mobile {
+    font-size: 75px;
+  }
+
+  @include short-font(85px, 00.15em);
+
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+  color: $hero-title;
+  text-shadow: 4px 8px 8px $accent-shadow;
+  padding-top: 165px;
+}
+
+.subtitleHero {
+  @include desktop {
+    font-size: 40px;
+    padding-bottom: 32px;
+  }
+
+  @include tablet {
+    @include short-font(30px, 0.15em);
+  }
+
+  @include font(20px, 600, 0.15em);
+
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+  color: $hero-title;
+  padding-bottom: 165px;
+}
+
+.heroBoxContactSocial {
+  @include tabletMin {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 40px;
+  }
+
+  display: flex;
+  justify-content: end;
+  padding: 0 10px 10px 0;
+}
