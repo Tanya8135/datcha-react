@@ -1,0 +1,16 @@
+@import '@css/index.scss';
+
+.subtitlePhoto {
+  & {
+    font-family: 'EB Garamond', sans-serif;
+    color: $secondary-color;
+    padding: 0 0 32px 32px;
+  }
+
+  @include tabletMin {
+    font-size: 32px;
+    // padding: 0 0 32px 20px;
+  }
+
+  @include font(30px, 500, 0.05em);
+}

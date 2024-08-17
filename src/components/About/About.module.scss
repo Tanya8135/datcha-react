@@ -2,7 +2,7 @@
 
 .about {
   & {
-    padding: 52px 0;
+    padding: 52px 15px;
   }
 
   @include tablet {
@@ -43,12 +43,12 @@
 .textAbout {
   & {
     font-family: 'EB Garamond', serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: left;
     color: $secondary-color;
     margin: 0;
     margin-bottom: 15px;
-    padding: 0 5px 0 15px;
+    // padding: 0 5px 0 15px;
 
     &:last-child {
       margin-bottom: 0;
@@ -56,11 +56,11 @@
   }
 
   @include desktop {
-    font-size: 28px;
+    font-size: 23px;
   }
 
   @include tablet {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 

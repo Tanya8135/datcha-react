@@ -33,24 +33,11 @@
 
   @include tablet {
     @include short-font(36px, 0.05em);
-    margin: 0;
-    padding: 0 0 32px 0;
+    & {
+      margin: 0;
+      padding: 0 0 32px 0;
+    }
   }
 
   @include font(32px, 700, 0.05em);
-}
-
-.subtitlePhoto {
-  & {
-    font-family: 'EB Garamond', sans-serif;
-    color: $secondary-color;
-    padding: 0 0 32px 32px;
-  }
-
-  @include tabletMin {
-    font-size: 32px;
-    // padding: 0 0 32px 20px;
-  }
-
-  @include font(30px, 500, 0.05em);
 }
