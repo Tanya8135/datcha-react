@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 // import './styles.css';
+import '../../../../node_modules/swiper/';
 
 function PhotoCommon() {
   const [toggler, setToggler] = useState(false);
@@ -18,23 +19,24 @@ function PhotoCommon() {
     <div>
       <h4 className={css.subtitlePhoto}>Загальні</h4>
 
-      <div className={css.testCommon}>
+      <div className={css.PhotoCommonBox}>
         <Swiper className="mySwiper">
-          <SwiperSlide className={css.test1}>
+          <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka1.jpg'}
               alt="Альтанка"
               onClick={() => openLightboxOnSlide(1)}
             />
           </SwiperSlide>
-          <SwiperSlide className={css.test1}>
+
+          <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka2.jpg'}
               alt="Альтанка"
               onClick={() => openLightboxOnSlide(2)}
             />
           </SwiperSlide>
-          <SwiperSlide className={css.test1}>
+          <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka3.jpg'}
               alt="Альтанка"

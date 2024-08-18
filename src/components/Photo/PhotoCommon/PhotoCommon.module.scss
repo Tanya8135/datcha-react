@@ -15,12 +15,14 @@
   @include font(30px, 500, 0.05em);
 }
 
-.testCommon {
+.PhotoCommonBox {
   display: flex;
 }
 
-.test1 {
-  width: 350px;
+.photoCommonSlide img {
+  border-radius: 10px;
+}
+
+.photoCommonSlide {
   margin-right: 15px;
-  // height: 400px;
 }
