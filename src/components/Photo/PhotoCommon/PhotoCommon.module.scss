@@ -14,3 +14,13 @@
 
   @include font(30px, 500, 0.05em);
 }
+
+.testCommon {
+  display: flex;
+}
+
+.test1 {
+  width: 400px;
+  margin-right: 15px;
+  // height: 400px;
+}
