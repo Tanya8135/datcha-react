@@ -22,62 +22,33 @@ function PhotoCommon() {
         <Swiper className="mySwiper">
           <SwiperSlide className={css.test1}>
             <img
-              src={process.env.PUBLIC_URL + '/images/1180/altanka1@2_700.jpg'}
+              src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka1.jpg'}
               alt="Альтанка"
               onClick={() => openLightboxOnSlide(1)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.test1}>
             <img
-              src={process.env.PUBLIC_URL + '/images/1180/altanka2@2_700.jpg'}
+              src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka2.jpg'}
               alt="Альтанка"
               onClick={() => openLightboxOnSlide(2)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.test1}>
             <img
-              src={process.env.PUBLIC_URL + '/images/1180/altanka3@2_700.jpg'}
+              src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka3.jpg'}
               alt="Альтанка"
               onClick={() => openLightboxOnSlide(3)}
             />
           </SwiperSlide>
         </Swiper>
-        {/* <div className={css.test1}>
-          <img
-            srcSet={`${process.env.PUBLIC_URL}/images/1180/altanka1@2_700.jpg 1400w,
-      ${process.env.PUBLIC_URL}/images/1180/altanka1_700.jpg 700w`}
-            sizes="(min-width: 1180px) 700px, 100vw"
-            src={process.env.PUBLIC_URL + '/images/1180/altanka1_700.jpg'}
-            alt="Альтанка"
-            onClick={() => openLightboxOnSlide(1)}
-          />
-        </div>
-        <div className={css.test1}>
-          <img
-            srcSet={`${process.env.PUBLIC_URL}/images/1180/altanka2@2_700.jpg 1400w,
-      ${process.env.PUBLIC_URL}/images/1180/altanka2_700.jpg 700w`}
-            sizes="(min-width: 1180px) 700px, 100vw"
-            src={process.env.PUBLIC_URL + '/images/1180/altanka2_700.jpg'}
-            alt="Альтанка"
-            onClick={() => openLightboxOnSlide(2)}
-          />
-        </div>
-        <div className={css.test1}>
-          <img
-            srcSet={`${process.env.PUBLIC_URL}/images/1180/altanka3@2_700.jpg 1400w,
-      ${process.env.PUBLIC_URL}/images/1180/altanka3_700.jpg 700w`}
-            sizes="(min-width: 1180px) 700px, 100vw"
-            src={process.env.PUBLIC_URL + '/images/1180/altanka3_700.jpg'}
-            alt="Альтанка"
-            onClick={() => openLightboxOnSlide(3)}
-          />
-        </div> */}
+
         <FsLightbox
           toggler={toggler}
           sources={[
-            `${process.env.PUBLIC_URL}/images/1180/altanka1@2_700.jpg`,
-            `${process.env.PUBLIC_URL}/images/1180/altanka2@2_700.jpg`,
-            `${process.env.PUBLIC_URL}/images/1180/altanka3@2_700.jpg`,
+            `${process.env.PUBLIC_URL}/images/commonPhoto/altanka1.jpg`,
+            `${process.env.PUBLIC_URL}/images/commonPhoto/altanka2.jpg`,
+            `${process.env.PUBLIC_URL}/images/commonPhoto/altanka3.jpg`,
           ]}
           slide={slide}
         />
