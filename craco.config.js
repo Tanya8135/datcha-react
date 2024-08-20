@@ -4,6 +4,7 @@ module.exports = {
     webpack: {
         alias: {
             '@css': path.resolve(__dirname, 'src/'),
+            '@font': path.resolve(__dirname, 'src/'),
             '@images': path.resolve(__dirname, 'public/images/'),
             '@img': path.resolve(__dirname, 'src/img/'),
         },
