@@ -13,14 +13,14 @@
     // max-width: 414px;
     max-width: 1024px;
     background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
-      url('~@images/alley-fon-414.jpg');
+      url('~@images/bgr-img-mob.jpg');
 
     @include retina {
       background-image: linear-gradient(
           $bg-fon-transparent,
           $bg-fon-transparent
         ),
-        url('~@images/alley-fon@2-414.jpg');
+        url('~@images/bgr-img-mob@2.jpg');
     }
   }
 
@@ -29,14 +29,14 @@
 
     // max-width: 1024px;
     background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
-      url('~@images/alley-fon-1024.jpg');
+      url('~@images/bgr-img-tabl.jpg');
 
     @include retina {
       background-image: linear-gradient(
           $bg-fon-transparent,
           $bg-fon-transparent
         ),
-        url('~@images/alley-fon@2-1024.jpg');
+        url('~@images/bgr-img-tabl@2.jpg');
     }
   }
 
@@ -45,14 +45,14 @@
 
     max-width: 1600px;
     background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
-      url('~@images/alley-fon-1180.jpg');
+      url('~@images/bgr-img-desk.jpg');
 
     @include retina {
       background-image: linear-gradient(
           $bg-fon-transparent,
           $bg-fon-transparent
         ),
-        url('~@images/alley-fon@2-1180.jpg');
+        url('~@images/bgr-img-desk@2.jpg');
     }
   }
 }
