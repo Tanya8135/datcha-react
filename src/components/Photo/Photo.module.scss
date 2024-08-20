@@ -1,0 +1,43 @@
+@import '@css/index.scss';
+
+.photo {
+  & {
+    padding: 0 15px 52px 15px;
+  }
+
+  @include tablet {
+    max-width: 702px;
+    margin: 0 auto;
+    // padding-bottom: 92px;
+  }
+
+  @include desktop {
+    max-width: 1170px;
+    margin: 0 auto;
+    // padding-bottom: 92px;
+  }
+}
+
+.titlePhoto {
+  & {
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 3px 4px 10px $title-shadow;
+    color: $primary-text;
+    margin-left: 20px;
+    padding: 0 0 16px 0px;
+  }
+
+  @include desktop {
+    font-size: 45px;
+  }
+
+  @include tablet {
+    @include short-font(36px, 0.05em);
+    & {
+      margin: 0;
+      padding: 0 0 32px 0;
+    }
+  }
+
+  @include font(32px, 700, 0.05em);
+}

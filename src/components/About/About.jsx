@@ -3,7 +3,7 @@ import css from './About.module.scss';
 function About() {
   return (
     <div>
-      <section className={css.about}>
+      <section className={css.about} id="about">
         <h3 className={css.titleAbout}>Про нас</h3>
 
         <div className={css.textAboutUk}>
