@@ -4,8 +4,6 @@ import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-// import './styles.css';
-
 function PhotoCommon() {
   const [toggler, setToggler] = useState(false);
   const [slide, setSlide] = useState(1);
