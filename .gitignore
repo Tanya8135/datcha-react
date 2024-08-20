@@ -4,8 +4,6 @@
 /node_modules
 /.pnp
 .pnp.js
-public/images/commonPhoto/*.jpg
-public/images/commonPhoto/*.png
 
 # testing
 /coverage
