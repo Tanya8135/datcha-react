@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/datcha-react/static/css/main.7dbd312f.css",
-    "main.js": "/datcha-react/static/js/main.69b7e8a3.js",
+    "main.js": "/datcha-react/static/js/main.0b3d9b7d.js",
     "static/media/bgr-img-desk@2.jpg": "/datcha-react/static/media/bgr-img-desk@2.8b7a9bd68b619f5f6cbc.jpg",
     "static/media/bgr-img-tabl@2.jpg": "/datcha-react/static/media/bgr-img-tabl@2.23bd547bdbafe12ccee0.jpg",
     "static/media/bgr-img-mob@2.jpg": "/datcha-react/static/media/bgr-img-mob@2.708f46a81e716c1c4e07.jpg",
@@ -32,10 +32,10 @@
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
     "main.7dbd312f.css.map": "/datcha-react/static/css/main.7dbd312f.css.map",
-    "main.69b7e8a3.js.map": "/datcha-react/static/js/main.69b7e8a3.js.map"
+    "main.0b3d9b7d.js.map": "/datcha-react/static/js/main.0b3d9b7d.js.map"
   },
   "entrypoints": [
     "static/css/main.7dbd312f.css",
-    "static/js/main.69b7e8a3.js"
+    "static/js/main.0b3d9b7d.js"
   ]
 }
