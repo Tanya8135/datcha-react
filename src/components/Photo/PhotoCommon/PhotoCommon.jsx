@@ -35,7 +35,7 @@ function PhotoCommon() {
         >
           <SwiperSlide className={css.photoCommonSlide}>
             <img
-              src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka4.JPG'}
+              src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka1.jpg'}
               alt="Альтанка, Алея"
               onClick={() => openLightboxOnSlide(1)}
             />
