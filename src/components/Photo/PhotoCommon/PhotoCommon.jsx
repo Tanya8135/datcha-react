@@ -36,7 +36,7 @@ function PhotoCommon() {
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/altanka1.jpg'}
-              alt="Альтанка"
+              alt="Альтанка, Алея"
               onClick={() => openLightboxOnSlide(1)}
             />
           </SwiperSlide>
@@ -109,7 +109,7 @@ function PhotoCommon() {
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/cottage.jpg'}
-              alt="Алея"
+              alt="Будиночек"
               onClick={() => openLightboxOnSlide(11)}
             />
           </SwiperSlide>
@@ -137,7 +137,7 @@ function PhotoCommon() {
               src={
                 process.env.PUBLIC_URL + '/images/commonPhoto/cottage3_1.jpg'
               }
-              alt="Алея"
+              alt="Будиночек"
               onClick={() => openLightboxOnSlide(14)}
             />
           </SwiperSlide>
@@ -146,14 +146,14 @@ function PhotoCommon() {
               src={
                 process.env.PUBLIC_URL + '/images/commonPhoto/cottage4_1.jpg'
               }
-              alt="Алея"
+              alt="Будиночек"
               onClick={() => openLightboxOnSlide(15)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/fishing.jpg'}
-              alt="Алея"
+              alt="Риболовля"
               onClick={() => openLightboxOnSlide(16)}
             />
           </SwiperSlide>
@@ -162,28 +162,28 @@ function PhotoCommon() {
               src={
                 process.env.PUBLIC_URL + '/images/commonPhoto/fishing_gear.jpg'
               }
-              alt="Алея"
+              alt="Риболовля, снасті"
               onClick={() => openLightboxOnSlide(17)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/grill.jpg'}
-              alt="Алея"
+              alt="Мангал"
               onClick={() => openLightboxOnSlide(18)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/kitchen.jpg'}
-              alt="Алея"
+              alt="Кухня"
               onClick={() => openLightboxOnSlide(19)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/pier.jpg'}
-              alt="Алея"
+              alt="Пірс"
               onClick={() => openLightboxOnSlide(20)}
             />
           </SwiperSlide>
@@ -192,21 +192,21 @@ function PhotoCommon() {
               src={
                 process.env.PUBLIC_URL + '/images/commonPhoto/pier_sunset.jpg'
               }
-              alt="Алея"
+              alt="Пірс, схід сонця"
               onClick={() => openLightboxOnSlide(21)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/room.jpg'}
-              alt="Алея"
+              alt="Кімната"
               onClick={() => openLightboxOnSlide(22)}
             />
           </SwiperSlide>
           <SwiperSlide className={css.photoCommonSlide}>
             <img
               src={process.env.PUBLIC_URL + '/images/commonPhoto/view.jpg'}
-              alt="Алея"
+              alt="Вид з будиночку"
               onClick={() => openLightboxOnSlide(23)}
             />
           </SwiperSlide>
