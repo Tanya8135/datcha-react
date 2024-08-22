@@ -4,6 +4,7 @@ import Header from 'components/Header';
 import Hero from 'components/Hero';
 import About from 'components/About';
 import Photo from 'components/Photo';
+import Footer from 'components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Photo />
+      <Footer />
     </div>
   );
 }
