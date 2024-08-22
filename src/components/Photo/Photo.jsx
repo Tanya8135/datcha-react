@@ -2,6 +2,7 @@
 import css from './Photo.module.scss';
 
 import PhotoCommon from './PhotoCommon';
+import PhotoChalet from './PhotoChalet';
 
 function Photo() {
   // const [taggler, setToggler] = useState(false);
@@ -11,6 +12,7 @@ function Photo() {
         <h3 className={css.titlePhoto}>Фото</h3>
 
         <PhotoCommon />
+        <PhotoChalet />
       </section>
     </div>
   );
