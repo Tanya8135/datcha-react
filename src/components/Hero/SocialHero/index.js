@@ -1,1 +1,0 @@
-export { defauolt } from './SocialHero';

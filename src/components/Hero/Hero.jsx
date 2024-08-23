@@ -1,6 +1,7 @@
 import css from './Hero.module.scss';
 import ContactsHero from './ContactsHero';
-import SocialHero from './SocialHero/SocialHero';
+// import SocialHero from './SocialHero/SocialHero';
+import SetSocial from 'components/SetSocial';
 
 function Hero() {
   return (
@@ -13,7 +14,7 @@ function Hero() {
 
         <div className={css.heroBoxContactSocial}>
           <ContactsHero />
-          <SocialHero />
+          <SetSocial iconColor={css.iconHeroColor} />
         </div>
       </section>
     </div>
