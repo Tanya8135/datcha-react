@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/datcha-react/static/css/main.4197d0a5.css",
-    "main.js": "/datcha-react/static/js/main.7096290c.js",
+    "main.css": "/datcha-react/static/css/main.0e4f6323.css",
+    "main.js": "/datcha-react/static/js/main.bd48ec01.js",
+    "static/css/825.ec96ea17.chunk.css": "/datcha-react/static/css/825.ec96ea17.chunk.css",
+    "static/js/825.b613c27e.chunk.js": "/datcha-react/static/js/825.b613c27e.chunk.js",
+    "static/js/348.6a87bc29.chunk.js": "/datcha-react/static/js/348.6a87bc29.chunk.js",
     "static/media/bgr-img-desk@2.jpg": "/datcha-react/static/media/bgr-img-desk@2.8b7a9bd68b619f5f6cbc.jpg",
     "static/media/bgr-img-tabl@2.jpg": "/datcha-react/static/media/bgr-img-tabl@2.23bd547bdbafe12ccee0.jpg",
     "static/media/bgr-img-mob@2.jpg": "/datcha-react/static/media/bgr-img-mob@2.708f46a81e716c1c4e07.jpg",
@@ -31,11 +34,14 @@
     "static/media/marck-script-v20-latin-regular.woff2": "/datcha-react/static/media/marck-script-v20-latin-regular.7c11d28094db2889f383.woff2",
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
-    "main.4197d0a5.css.map": "/datcha-react/static/css/main.4197d0a5.css.map",
-    "main.7096290c.js.map": "/datcha-react/static/js/main.7096290c.js.map"
+    "main.0e4f6323.css.map": "/datcha-react/static/css/main.0e4f6323.css.map",
+    "main.bd48ec01.js.map": "/datcha-react/static/js/main.bd48ec01.js.map",
+    "825.ec96ea17.chunk.css.map": "/datcha-react/static/css/825.ec96ea17.chunk.css.map",
+    "825.b613c27e.chunk.js.map": "/datcha-react/static/js/825.b613c27e.chunk.js.map",
+    "348.6a87bc29.chunk.js.map": "/datcha-react/static/js/348.6a87bc29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4197d0a5.css",
-    "static/js/main.7096290c.js"
+    "static/css/main.0e4f6323.css",
+    "static/js/main.bd48ec01.js"
   ]
 }
