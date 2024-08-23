@@ -7,7 +7,7 @@ function BurgerMenuSocial() {
         <ul className={css.burgerMenuSocialList}>
           <li className={css.burgerMenuSocialItem}>
             <a
-              href="https://www.instagram.com/baza_otdykha_kr/"
+              href="https://www.instagram.com/baza_vidpochynku_kr?igsh=MXNrcDZ1cWwzZXNhbQ%3D%3D&utm_source=qr"
               target="_blank"
               rel="noopener nofollow noreferrer"
               className={css.menuSocialLink}

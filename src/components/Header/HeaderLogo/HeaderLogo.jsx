@@ -8,7 +8,7 @@ function HeaderLogo() {
   return (
     <div>
       <div className={css.logoHeader}>
-        <NavLink className={css.logo}>
+        <NavLink to="/datcha-react" className={css.logo}>
           <img src={logo} alt="logo" className={css.logoImg} />
         </NavLink>
       </div>

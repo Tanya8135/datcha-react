@@ -1,0 +1,63 @@
+@import '@css/index.scss';
+
+.footer {
+  & {
+    background-image: linear-gradient($secondary-bg, $secondary-bg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+  }
+
+  @include tablet {
+    padding: 0 32px 20px 32px;
+  }
+
+  @include desktop {
+    padding: 32px;
+  }
+}
+
+.footerContainer {
+  @include desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+
+  @include mobileMax {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.footerBox {
+  & {
+    display: block;
+  }
+
+  @include tabletMin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+
+  @include desktop {
+    min-width: 700px;
+    justify-content: space-between;
+  }
+}
+
+.logoFooter {
+  & {
+    padding: 32px 0 15px 0;
+  }
+
+  @include tablet {
+    padding: 0;
+  }
+}
