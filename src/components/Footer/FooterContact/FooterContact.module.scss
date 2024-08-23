@@ -1,6 +1,10 @@
 @import '@css/index.scss';
 @import '@font/fonts.scss';
 
+.contactBox {
+  position: relative;
+}
+
 .subtitleFooter {
   @include font(20px, 600, 0.05em);
 
@@ -35,4 +39,40 @@
 
 .contactLink {
   @include short-font(18px, 0.05em);
+}
+
+.btnBoxReservedTablet {
+  & {
+    display: none;
+  }
+
+  @include tablet {
+    display: block;
+  }
+
+  @include desktop {
+    display: none;
+  }
+}
+
+.btnReservedTablet {
+  & {
+    position: absolute;
+    border: none;
+    background-color: $bg-btn;
+    border-radius: 15px;
+    padding: 15px 38px;
+    margin-top: 32px;
+  }
+
+  @include tabletMin {
+    @include font(16px, 300, 00.01em);
+    & {
+      margin: 32px 0 0 0;
+    }
+
+    &:active {
+      box-shadow: inset 0 0 2px 0px rgba(0, 0, 0, 0.5);
+    }
+  }
 }

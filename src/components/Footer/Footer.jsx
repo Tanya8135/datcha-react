@@ -6,6 +6,7 @@ import logo from '@img/logoDatchaWord.svg';
 
 import FooterContact from './FooterContact';
 import FooterAddress from './FooterAddress/FooterAddress';
+import FooterSocial from './FooterSocial';
 
 function Footer() {
   return (
@@ -19,10 +20,10 @@ function Footer() {
               </NavLink>
             </div>
 
-            {/* Content fot contact*/}
             <FooterContact />
             <FooterAddress />
           </div>
+          <FooterSocial />
         </div>
       </footer>
     </div>
