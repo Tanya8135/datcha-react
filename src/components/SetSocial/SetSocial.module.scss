@@ -3,7 +3,16 @@
 @import '@css/index.scss';
 
 .socialHeroSet {
-  display: flex;
+  & {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  @include tabletMin {
+    justify-content: end;
+    padding-bottom: 0;
+  }
 }
 
 .socialHeroSetItem {
@@ -21,10 +30,4 @@
       margin-right: 0;
     }
   }
-}
-
-.iconColor {
-  min-width: 42px;
-  min-height: 42px;
-  color: $icon-social;
 }

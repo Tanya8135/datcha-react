@@ -6,7 +6,7 @@ import logo from '@img/logoDatchaWord.svg';
 
 import FooterContact from './FooterContact';
 import FooterAddress from './FooterAddress/FooterAddress';
-import FooterSocial from './FooterSocial';
+import BtnReserved from './BtnReserved';
 
 function Footer() {
   return (
@@ -23,7 +23,7 @@ function Footer() {
             <FooterContact />
             <FooterAddress />
           </div>
-          <FooterSocial />
+          <BtnReserved />
         </div>
       </footer>
     </div>
