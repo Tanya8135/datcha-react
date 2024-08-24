@@ -1,10 +1,21 @@
+import MovingComponent from 'react-moving-text';
 import css from './About.module.scss';
 
 function About() {
   return (
     <div>
       <section className={css.about} id="about">
-        <h3 className={css.titleAbout}>Про нас</h3>
+        <MovingComponent
+          type="fadeIn"
+          duration="1500ms"
+          delay="0s"
+          direction="normal"
+          timing="ease"
+          iteration="1"
+          fillMode="none"
+        >
+          <h3 className={css.titleAbout}>Про нас</h3>
+        </MovingComponent>
 
         <div className={css.textAboutUk}>
           <div className={css.textAbout}>
