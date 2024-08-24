@@ -10,7 +10,7 @@ function FooterSocial() {
             Забронювати
           </a>
         </div>
-        <SetSocial iconColor={css.iconFooterColor}/>
+        <SetSocial iconColor={css.iconFooterColor} />
       </div>
     </div>
   );

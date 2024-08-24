@@ -7,8 +7,8 @@ import css from './SetSocial.module.scss';
 function SetSocial({ iconColor }) {
   return (
     <div>
-      <ul className={css.socialHeroSet}>
-        <li className={css.socialHeroSetItem}>
+      <ul className={css.socialSet}>
+        <li className={css.socialSetItem}>
           <a
             href="https://www.instagram.com/baza_vidpochynku_kr?igsh=MXNrcDZ1cWwzZXNhbQ%3D%3D&utm_source=qr"
             target="_blank"
@@ -17,7 +17,7 @@ function SetSocial({ iconColor }) {
             <LuInstagram className={iconColor} />
           </a>
         </li>
-        <li className={css.socialHeroSetItem}>
+        <li className={css.socialSetItem}>
           <a
             href="https://www.facebook.com/datcha.afalina"
             target="_blank"
@@ -26,7 +26,7 @@ function SetSocial({ iconColor }) {
             <RiFacebookFill className={iconColor} />
           </a>
         </li>
-        <li className={css.socialHeroSetItem}>
+        <li className={css.socialSetItem}>
           <a
             href="https://t.me/datcha_bv"
             target="_blank"

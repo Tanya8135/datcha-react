@@ -25,6 +25,7 @@ function FooterContact() {
           </li>
         </ul>
       </div>
+
       <div className={css.btnBoxReservedTablet}>
         <a href="tel:+380964875185" className={css.btnReservedTablet}>
           Забронювати

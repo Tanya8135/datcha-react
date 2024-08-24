@@ -2,7 +2,7 @@
 
 @import '@css/index.scss';
 
-.socialHeroSet {
+.socialSet {
   & {
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@
   }
 }
 
-.socialHeroSetItem {
+.socialSetItem {
   @include tabletMin {
     display: block;
     padding: 0;
