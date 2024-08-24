@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { LuInstagram } from 'react-icons/lu';
 import { RiFacebookFill } from 'react-icons/ri';
 import { BsTelegram } from 'react-icons/bs';
@@ -39,5 +40,9 @@ function SetSocial({ iconColor }) {
     </div>
   );
 }
+
+SetSocial.propTypes = {
+  iconColor: PropTypes.string.isRequired,
+};
 
 export default SetSocial;
