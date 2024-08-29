@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
+import photoDataChalet from 'data/photoDataChalet';
 import FsLightbox from 'fslightbox-react';
-// import css from './PhotoChalet.module.scss';
 import cssCommonPhoto from '../PhotoCommon/PhotoCommon.module.scss';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -53,7 +53,8 @@ function PhotoChalet() {
           <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
             <img
               src={
-                process.env.PUBLIC_URL + '/images/chaletPhoto/lodder_chalet1.jpg'
+                process.env.PUBLIC_URL +
+                '/images/chaletPhoto/lodder_chalet1.jpg'
               }
               alt="Сходи в шале"
               onClick={() => openLightboxOnSlide(3)}
