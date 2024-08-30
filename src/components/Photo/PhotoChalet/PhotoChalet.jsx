@@ -1,19 +1,23 @@
 import { useState } from 'react';
 
+import photoDataChalet from 'data/photoDataChalet';
 import FsLightbox from 'fslightbox-react';
-// import css from './PhotoChalet.module.scss';
 import cssCommonPhoto from '../PhotoCommon/PhotoCommon.module.scss';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 function PhotoChalet() {
-  const [toggler, setToggler] = useState(false);
-  const [slide, setSlide] = useState(1);
+  const [lightboxController, setLightboxController] = useState({
+    toggler: false,
+    slide: 1,
+  });
 
-  const openLightboxOnSlide = slideNumber => {
-    setSlide(slideNumber);
-    setToggler(!toggler);
+  const openLightboxOnSlide = slideIndex => {
+    setLightboxController({
+      toggler: !lightboxController.toggler,
+      slide: slideIndex + 1,
+    });
   };
 
   return (
@@ -36,81 +40,22 @@ function PhotoChalet() {
             },
           }}
         >
-          <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
-            <img
-              src={process.env.PUBLIC_URL + '/images/chaletPhoto/chalet.jpg'}
-              alt="Шале"
-              onClick={() => openLightboxOnSlide(1)}
-            />
-          </SwiperSlide>
-          <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
-            <img
-              src={process.env.PUBLIC_URL + '/images/chaletPhoto/chalet1.jpg'}
-              alt="Шале"
-              onClick={() => openLightboxOnSlide(2)}
-            />
-          </SwiperSlide>
-          <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
-            <img
-              src={
-                process.env.PUBLIC_URL + '/images/chaletPhoto/lodder_chalet1.jpg'
-              }
-              alt="Сходи в шале"
-              onClick={() => openLightboxOnSlide(3)}
-            />
-          </SwiperSlide>
-          <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
-            <img
-              src={
-                process.env.PUBLIC_URL + '/images/chaletPhoto/first_floor.jpg'
-              }
-              alt="Перший поверх шале"
-              onClick={() => openLightboxOnSlide(4)}
-            />
-          </SwiperSlide>
-          <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
-            <img
-              src={
-                process.env.PUBLIC_URL +
-                '/images/chaletPhoto/kitchen_chalet.jpg'
-              }
-              alt="Кухня в шале"
-              onClick={() => openLightboxOnSlide(5)}
-            />
-          </SwiperSlide>
-          <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
-            <img
-              src={
-                process.env.PUBLIC_URL + '/images/chaletPhoto/second_floor.jpg'
-              }
-              alt="Другий поверх в шале"
-              onClick={() => openLightboxOnSlide(6)}
-            />
-          </SwiperSlide>
-          <SwiperSlide className={cssCommonPhoto.photoCommonSlide}>
-            <img
-              src={
-                process.env.PUBLIC_URL +
-                '/images/chaletPhoto/second_floor_bed.jpg'
-              }
-              alt="Відпочивальня в шале"
-              onClick={() => openLightboxOnSlide(7)}
-            />
-          </SwiperSlide>
+          {photoDataChalet.map((photo, index) => (
+            <SwiperSlide key={photo.id}>
+              <div
+                className={cssCommonPhoto.photoCommonSlide}
+                onClick={() => openLightboxOnSlide(index)}
+              >
+                <img src={photo.src} alt={photo.alt} />
+              </div>
+            </SwiperSlide>
+          ))}
         </Swiper>
 
         <FsLightbox
-          toggler={toggler}
-          sources={[
-            `${process.env.PUBLIC_URL}/images/chaletPhoto/chalet.jpg`,
-            `${process.env.PUBLIC_URL}/images/chaletPhoto/chalet1.jpg`,
-            `${process.env.PUBLIC_URL}/images/chaletPhoto/lodder_chalet.jpg`,
-            `${process.env.PUBLIC_URL}/images/chaletPhoto/first_floor.jpg`,
-            `${process.env.PUBLIC_URL}/images/chaletPhoto/kitchen_chalet.jpg`,
-            `${process.env.PUBLIC_URL}/images/chaletPhoto/second_floor.jpg`,
-            `${process.env.PUBLIC_URL}/images/chaletPhoto/second_floor_bed.jpg`,
-          ]}
-          slide={slide}
+          toggler={lightboxController.toggler}
+          sources={photoDataChalet.map(photo => photo.src)}
+          slide={lightboxController.slide}
         />
       </div>
     </div>

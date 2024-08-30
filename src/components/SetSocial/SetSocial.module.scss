@@ -2,11 +2,20 @@
 
 @import '@css/index.scss';
 
-.socialHeroSet {
-  display: flex;
+.socialSet {
+  & {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+
+  @include tabletMin {
+    justify-content: end;
+    padding-bottom: 0;
+  }
 }
 
-.socialHeroSetItem {
+.socialSetItem {
   @include tabletMin {
     display: block;
     padding: 0;
@@ -21,10 +30,4 @@
       margin-right: 0;
     }
   }
-}
-
-.iconColor {
-  min-width: 42px;
-  min-height: 42px;
-  color: $icon-social;
 }
