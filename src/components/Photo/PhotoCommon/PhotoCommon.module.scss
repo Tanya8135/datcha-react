@@ -27,24 +27,21 @@
   border-radius: 10px;
 }
 
-.photoCommonSlide {
-  margin-right: 15px;
+// .photoCommonSlide {
+//   width: 320px;
+//   height: 320px;
+//   margin-bottom: 30px;
+// }
+
+.photoImg {
+  & {
+    width: 240px;
+    height: 320px;
+  }
+
+  @include tabletMin {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 30px;
+  }
 }
-
-
-// .sliderContainer {
-//   width: 100%;
-//   max-width: 1200px;
-//   margin: 0 auto;
-// }
-
-// .slide {
-//   cursor: pointer;
-// }
-
-// .photo {
-//   width: 100%;
-//   height: auto;
-//   border-radius: 8px;
-//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-// }
