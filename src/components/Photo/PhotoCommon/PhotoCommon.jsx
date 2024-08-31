@@ -47,7 +47,11 @@ function PhotoCommon() {
                   className={css.photoCommonSlide}
                   onClick={() => openLightboxOnSlide(index)}
                 >
-                  <img src={photo.src} alt={photo.alt} className={css.photoImg} />
+                  <img
+                    src={photo.src}
+                    alt={photo.alt}
+                    className={css.photoImg}
+                  />
                 </div>
               </SwiperSlide>
             ))}

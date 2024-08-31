@@ -27,11 +27,10 @@
   border-radius: 10px;
 }
 
-// .photoCommonSlide {
-//   width: 320px;
-//   height: 320px;
-//   margin-bottom: 30px;
-// }
+.photoCommonSlide {
+  display: flex;
+  justify-content: center;
+}
 
 .photoImg {
   & {
@@ -45,3 +44,4 @@
     margin-bottom: 30px;
   }
 }
+
