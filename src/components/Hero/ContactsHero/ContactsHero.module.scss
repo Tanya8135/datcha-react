@@ -13,7 +13,7 @@
 .contactHeroItem {
   display: flex;
   align-items: center;
-  fill: $icon-social;
+  fill: $icon-light;
   margin-bottom: 12px;
 
   &:last-child {
@@ -24,14 +24,14 @@
 .phoneIcon {
   min-width: 30px;
   min-height: 33px;
-  color: $icon-social;
+  color: $icon-light;
 }
 
 .contactHeroLink {
   @include font(20px, 800, 0.08em);
 
   & {
-    color: $icon-social;
+    color: $icon-light;
     margin-left: 4px;
   }
 }

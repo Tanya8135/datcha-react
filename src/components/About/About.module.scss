@@ -40,6 +40,17 @@
   @include font(32px, 700, 0.05em);
 }
 
+.textAboutBox {
+  & {
+    margin-bottom: 15px;
+    // padding: 0 5px 0 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .textAbout {
   & {
     font-family: 'EB Garamond', serif;
@@ -47,12 +58,6 @@
     text-align: left;
     color: $secondary-color;
     margin: 0;
-    margin-bottom: 15px;
-    // padding: 0 5px 0 15px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
   }
 
   @include desktop {

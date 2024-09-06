@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import css from "./Header.module.scss";
-import HeaderLogo from "./HeaderLogo";
-import HeaderNav from "./HeaderNav/HeaderNav";
+import css from './Header.module.scss';
+import HeaderLogo from './HeaderLogo';
+import HeaderNav from './HeaderNav/HeaderNav';
+import ThemeToggle from 'components/ThemeToggle';
 
 function Header() {
   return (
@@ -10,6 +11,7 @@ function Header() {
       <div className={css.header}>
         <HeaderLogo />
         <HeaderNav />
+        <ThemeToggle />
       </div>
     </header>
   );
