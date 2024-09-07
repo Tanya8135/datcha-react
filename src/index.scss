@@ -187,10 +187,7 @@ address {
 /* THEME */
 .darkTheme {
   background-color: $primary-dark;
-}
-
-.lightTheme {
-  background-color: $secondary-bg;
+  color: $primary-text-dark;
 }
 
 .darkTheme p {
@@ -202,4 +199,30 @@ address {
 .darkTheme h4 {
   // background-color: $secondary-dark-bg;
   color: $primary-text-dark;
+}
+
+.darkTheme header {
+  background-color: $secondary-dark-bg;
+  color: $primary-text-dark;
+}
+
+.lightTheme header {
+  background-color: $secondary-bg;
+  color: $primary-text;
+}
+
+.darkTheme .navSiteLink {
+  color: $primary-text-dark !important;
+}
+
+// .lightTheme .navSiteLink {
+//   color: $primary-text;
+// }
+
+.darkTheme button {
+  color: $primary-text-dark;
+}
+
+.lightTheme button {
+  color: $primary-text;
 }

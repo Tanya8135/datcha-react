@@ -26,19 +26,22 @@ function ThemeToggle() {
     <div>
       <button className={css.btnTheme} onClick={() => dispatch(toggleTheme())}>
         {darkTheme === 'light' ? (
-          <BsMoon className={css.iconTheme} />
+          <BsMoon
+            className={css.iconTheme}
+            style={{ fill: darkTheme === 'light' ? '#423d1b' : '#cdcab3' }}
+          />
         ) : (
           <IoSunnyOutline className={css.iconTheme} />
         )}
       </button>
       <div
-        style={{
-          backgroundColor: darkTheme === 'light' ? '#fff' : '#333',
-          color: darkTheme === 'light' ? '#000' : '#fff',
-          padding: '10px',
-        }}
+      // style={{
+      //   backgroundColor: darkTheme === 'light' ? '#fff' : '#333',
+      //   color: darkTheme === 'light' ? '#000' : '#fff',
+      //   padding: '10px',
+      // }}
       >
-        Current Theme: {darkTheme}
+        {/* Current Theme: {darkTheme} */}
       </div>
     </div>
   );

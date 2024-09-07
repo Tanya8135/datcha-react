@@ -29,6 +29,7 @@
 .navSiteLink {
   & {
     display: none;
+    // color: $primary-text;
   }
 
   @include tabletMin {

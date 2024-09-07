@@ -7,7 +7,7 @@ function FooterSocial() {
       <div className={css.socialFooterContainer}>
         <div className={css.btnBoxReserved}>
           <a href="tel:+380964875185" className={css.btnReserved}>
-            Забронювати
+            <div className={css.textReserved}>Забронювати</div>
           </a>
         </div>
         <SetSocial iconColor={css.iconFooterColor} />

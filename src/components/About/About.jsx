@@ -9,8 +9,8 @@ function About() {
         <div className={css.textAboutUk}>
           <div className={css.textAboutBox}>
             <p className={css.textAbout}>
-              База відпочинку
-              <span className={css.textAccentAbout}>“Datcha”</span>, розташована
+              База відпочинку 
+              <span className={css.textAccentAbout}> “Datcha”</span>, розташована
               за межами міста і є місцем для тих, хто хоче насолодитися гарною
               природою, відпочити від міського шуму та повсякденної метушні.
             </p>
