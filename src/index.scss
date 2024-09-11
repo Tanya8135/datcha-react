@@ -195,6 +195,10 @@ address {
   color: $secondary-color-dark;
 }
 
+.darkTheme a {
+  color: $secondary-color-dark;
+}
+
 .darkTheme h3,
 .darkTheme h4 {
   // background-color: $secondary-dark-bg;
@@ -224,5 +228,15 @@ address {
 }
 
 .lightTheme button {
+  color: $primary-text;
+}
+
+.darkTheme footer {
+  background-color: $secondary-dark-bg;
+  color: $primary-text-dark;
+}
+
+.lightTheme footer {
+  background-color: $secondary-bg;
   color: $primary-text;
 }
