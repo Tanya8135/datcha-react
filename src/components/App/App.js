@@ -13,11 +13,12 @@ function App() {
     <div>
       <Header />
 
-      <Suspense fallback={<div>Loading...</div>}></Suspense>
-      <Routes>
-        <Route index element={<Home />}></Route>
-        <Route path='/*' element={<Navigate to="/" />}></Route>
-      </Routes>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Routes>
+          <Route index element={<Home />}></Route>
+          <Route path='/*' element={<Navigate to="/" />}></Route>
+        </Routes>
+      </Suspense>
 
     </div>
   );

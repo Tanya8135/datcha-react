@@ -6,15 +6,35 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px 15px;
-    background-color: $secondary-bg;
+    // background-color: $secondary-bg;
     /* margin: 0 auto; */
   }
 
   @include tabletMin {
+    position: relative;
     padding: 20px 32px;
   }
 
   @include desktop {
     padding: 20px 52px;
   }
+}
+
+.headerBox {
+  & {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.themeToggle {
+  @include tabletMin {
+    position: absolute;
+    // top: 10px;
+    right: 32px;
+  }
+
+  // @include desktop {
+  //   right: 32px;
+  // }
 }

@@ -2,6 +2,8 @@
 
 .photo {
   & {
+    max-width: 375px;
+    margin: 0 auto;
     padding: 0 15px 52px 15px;
   }
 

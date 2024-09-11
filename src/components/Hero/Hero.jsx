@@ -1,6 +1,5 @@
 import css from './Hero.module.scss';
 import ContactsHero from './ContactsHero';
-// import SocialHero from './SocialHero/SocialHero';
 import SetSocial from 'components/SetSocial';
 
 function Hero() {

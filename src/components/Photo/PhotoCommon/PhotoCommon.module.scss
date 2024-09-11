@@ -34,14 +34,13 @@
 
 .photoImg {
   & {
-    width: 240px;
-    height: 320px;
+    min-width: 240px;
+    min-height: 320px;
   }
 
   @include tabletMin {
-    width: 320px;
-    height: 320px;
+    min-width: 320px;
+    min-height: 320px;
     margin-bottom: 30px;
   }
 }
-

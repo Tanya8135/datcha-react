@@ -25,8 +25,6 @@ function HeaderNav() {
         <div className={css.headerNavBox}>
           <ul className={css.navSite}>
             <li className={css.navSiteItem}>
-              {/* eslint-disable-next-line */}
-              {/* <a className={`${css.navSiteLink} ${css.btnPrice}`}>Прайс</a> */}
               <button
                 type="button"
                 onClick={toggleModal}

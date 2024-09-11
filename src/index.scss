@@ -3,13 +3,17 @@
 /* VARIABLES */
 /*TEXT*/
 $primary-text: #263e24;
+$primary-text-dark: #fff9d0;
 $secondary-color: #423d1b;
+$secondary-color-dark: #fffbdd;
 $accent-color: #7f8114;
 $hero-title: #cdcab3;
 
 /*BG*/
 $primary-bg: #fffbdd;
+$primary-dark: #5b594b;
 $secondary-bg: #c9c5a7;
+$secondary-dark-bg: #38362e;
 $accent-shadow: #90b78f9c;
 $title-shadow: rgba(0, 0, 0, 0.25);
 $bg-fon-transparent: rgba(0, 0, 0, 0.4);
@@ -18,9 +22,9 @@ $bg-fon-modal: rgba(55, 52, 28, 0.7);
 $bg-btn: #fff8bf;
 
 /*ICON and ELEMENT*/
-$icon-social: #cdcab3;
-$icon-social-footer: #423d1b;
-$icon-burger-menu: #423d1b;
+$icon-light: #cdcab3;
+$icon-dark: #423d1b;
+
 $icon-close-BM: #263e24;
 $icon-map: #263e24;
 $arrow-fill: #a1a099;
@@ -28,7 +32,8 @@ $hover-close-btn: #7f8114;
 $hover-open-btn: #fff8bf;
 $line-slide: #7f8114;
 
-$short-line: rgba(33, 33, 33, 0.2);
+$short-line-light: rgba(33, 33, 33, 0.2);
+$short-line-dark: rgba(207, 205, 194, 0.5);
 
 /* MIXIN */
 // @mixin min-mobile {
@@ -178,4 +183,70 @@ address {
 
 .swiper-scrollbar-drag {
   background-color: $line-slide !important;
+}
+
+/* THEME */
+.darkTheme {
+  background-color: $primary-dark;
+  color: $primary-text-dark;
+}
+
+.darkTheme p,
+.darkTheme b {
+  // background-color: $secondary-dark-bg;
+  color: $secondary-color-dark;
+}
+
+.darkTheme a {
+  color: $secondary-color-dark;
+}
+
+.darkTheme h3,
+.darkTheme h4 {
+  // background-color: $secondary-dark-bg;
+  color: $primary-text-dark;
+}
+
+.darkTheme header {
+  background-color: $secondary-dark-bg;
+  color: $primary-text-dark;
+}
+
+.lightTheme header {
+  background-color: $secondary-bg;
+  color: $primary-text;
+}
+
+.darkTheme .navSiteLink {
+  color: $primary-text-dark !important;
+}
+
+// .lightTheme .navSiteLink {
+//   color: $primary-text;
+// }
+
+.darkTheme button {
+  color: $primary-text-dark;
+}
+
+.lightTheme button {
+  color: $primary-text;
+}
+
+.darkTheme footer {
+  background-color: $secondary-dark-bg;
+  color: $primary-text-dark;
+}
+
+.lightTheme footer {
+  background-color: $secondary-bg;
+  color: $primary-text;
+}
+
+.darkTheme span {
+  border-right: 1px solid $short-line-dark;
+}
+
+.lightTheme span {
+  border-right: 1px solid $short-line-light;
 }

@@ -2,7 +2,7 @@
 
 .footer {
   & {
-    background-image: linear-gradient($secondary-bg, $secondary-bg);
+    // background-image: linear-gradient($secondary-bg, $secondary-bg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-right: auto;
@@ -65,5 +65,5 @@
 .iconFooterColor {
   min-width: 42px;
   min-height: 42px;
-  color: $icon-social-footer;
+  color: $icon-dark;
 }
