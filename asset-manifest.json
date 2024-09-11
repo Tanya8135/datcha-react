@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/datcha-react/static/css/main.c0b144b6.css",
-    "main.js": "/datcha-react/static/js/main.24b5e8e5.js",
-    "static/css/975.9aaa6ea0.chunk.css": "/datcha-react/static/css/975.9aaa6ea0.chunk.css",
-    "static/js/975.b6ccd232.chunk.js": "/datcha-react/static/js/975.b6ccd232.chunk.js",
-    "static/js/430.c299e876.chunk.js": "/datcha-react/static/js/430.c299e876.chunk.js",
+    "main.css": "/datcha-react/static/css/main.49ce9279.css",
+    "main.js": "/datcha-react/static/js/main.3ad9f2db.js",
+    "static/css/724.e2856790.chunk.css": "/datcha-react/static/css/724.e2856790.chunk.css",
+    "static/js/724.1d2bc8f8.chunk.js": "/datcha-react/static/js/724.1d2bc8f8.chunk.js",
+    "static/js/696.7c469628.chunk.js": "/datcha-react/static/js/696.7c469628.chunk.js",
     "static/media/bgr-img-desk@2.jpg": "/datcha-react/static/media/bgr-img-desk@2.8b7a9bd68b619f5f6cbc.jpg",
     "static/media/bgr-img-tabl@2.jpg": "/datcha-react/static/media/bgr-img-tabl@2.23bd547bdbafe12ccee0.jpg",
     "static/media/bgr-img-mob@2.jpg": "/datcha-react/static/media/bgr-img-mob@2.708f46a81e716c1c4e07.jpg",
@@ -29,19 +29,20 @@
     "static/media/roboto-slab-v34-cyrillic_latin-300.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-300.fb49077c68b930e29d9a.woff2",
     "static/media/roboto-slab-v34-cyrillic_latin-regular.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-regular.1d463dc254768896b7c2.woff2",
     "static/media/roboto-slab-v34-cyrillic_latin-100.woff2": "/datcha-react/static/media/roboto-slab-v34-cyrillic_latin-100.a84525e4b9775adc1199.woff2",
+    "static/media/logoDatchaWordLight.svg": "/datcha-react/static/media/logoDatchaWordLight.3c833d2b9b7cb9e6de54480aff23a4f7.svg",
     "static/media/logoDatchaWord.svg": "/datcha-react/static/media/logoDatchaWord.6c5811f0f611cc60f63782f65a3e5e9c.svg",
     "static/media/marck-script-v20-latin-regular.woff": "/datcha-react/static/media/marck-script-v20-latin-regular.732f99ddeb7622ff2e88.woff",
     "static/media/marck-script-v20-latin-regular.woff2": "/datcha-react/static/media/marck-script-v20-latin-regular.7c11d28094db2889f383.woff2",
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
-    "main.c0b144b6.css.map": "/datcha-react/static/css/main.c0b144b6.css.map",
-    "main.24b5e8e5.js.map": "/datcha-react/static/js/main.24b5e8e5.js.map",
-    "975.9aaa6ea0.chunk.css.map": "/datcha-react/static/css/975.9aaa6ea0.chunk.css.map",
-    "975.b6ccd232.chunk.js.map": "/datcha-react/static/js/975.b6ccd232.chunk.js.map",
-    "430.c299e876.chunk.js.map": "/datcha-react/static/js/430.c299e876.chunk.js.map"
+    "main.49ce9279.css.map": "/datcha-react/static/css/main.49ce9279.css.map",
+    "main.3ad9f2db.js.map": "/datcha-react/static/js/main.3ad9f2db.js.map",
+    "724.e2856790.chunk.css.map": "/datcha-react/static/css/724.e2856790.chunk.css.map",
+    "724.1d2bc8f8.chunk.js.map": "/datcha-react/static/js/724.1d2bc8f8.chunk.js.map",
+    "696.7c469628.chunk.js.map": "/datcha-react/static/js/696.7c469628.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0b144b6.css",
-    "static/js/main.24b5e8e5.js"
+    "static/css/main.49ce9279.css",
+    "static/js/main.3ad9f2db.js"
   ]
 }
