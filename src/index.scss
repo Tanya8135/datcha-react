@@ -32,7 +32,8 @@ $hover-close-btn: #7f8114;
 $hover-open-btn: #fff8bf;
 $line-slide: #7f8114;
 
-$short-line: rgba(33, 33, 33, 0.2);
+$short-line-light: rgba(33, 33, 33, 0.2);
+$short-line-dark: rgba(207, 205, 194, 0.5);
 
 /* MIXIN */
 // @mixin min-mobile {
@@ -190,7 +191,8 @@ address {
   color: $primary-text-dark;
 }
 
-.darkTheme p {
+.darkTheme p,
+.darkTheme b {
   // background-color: $secondary-dark-bg;
   color: $secondary-color-dark;
 }
@@ -239,4 +241,12 @@ address {
 .lightTheme footer {
   background-color: $secondary-bg;
   color: $primary-text;
+}
+
+.darkTheme span {
+  border-right: 1px solid $short-line-dark;
+}
+
+.lightTheme span {
+  border-right: 1px solid $short-line-light;
 }

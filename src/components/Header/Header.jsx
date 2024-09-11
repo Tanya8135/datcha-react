@@ -10,8 +10,13 @@ function Header() {
     <header>
       <div className={css.header}>
         <HeaderLogo />
-        <HeaderNav />
-        <ThemeToggle />
+        <div className={css.headerBox}>
+          <div className={css.themeToggle}>
+            <ThemeToggle />
+          </div>
+
+          <HeaderNav />
+        </div>
       </div>
     </header>
   );

@@ -8,6 +8,11 @@
   @include tabletMin {
     display: flex;
     justify-content: center;
+    margin-right: 52px;
+  }
+
+  @include desktop {
+    margin-right: 0;
   }
 }
 

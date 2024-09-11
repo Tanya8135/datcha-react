@@ -1,8 +1,19 @@
 @import '@css/index.scss';
 
 .btnTheme {
-  background-color: transparent;
-  border: none;
+  & {
+    background-color: transparent;
+    border: none;
+    margin-right: 32px;
+  }
+
+  @include tabletMin {
+    margin-right: 0;
+  }
+
+  @include desktop {
+    cursor: pointer;
+  }
 }
 
 .iconTheme {

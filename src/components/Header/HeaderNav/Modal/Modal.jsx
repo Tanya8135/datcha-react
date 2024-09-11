@@ -1,48 +1,67 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+import { selectTheme } from '../../../../redux/selectors';
 import { IoCloseOutline } from 'react-icons/io5';
 
 import css from './Modal.module.scss';
 import cssBtnClose from '../../BurgerMenu/BtnClose/BtnClose.module.scss';
 
 function Modal({ isOpen, toggleModal }) {
+  const darkTheme = useSelector(selectTheme);
   return (
     <div>
-      {/* <button
-        type="button"
-        onClick={toggleModal}
-        className={`${css.navSiteLink} ${css.btnPrice}`}
-      >
-        Прайс
-      </button> */}
-
       {isOpen && (
-        <div className={css.backdrop} data-modal>
-          <div className={css.modal} onClick={e => e.stopPropagation()}>
+        <div
+          className={css.backdrop}
+          data-modal
+          // style={{ background: darkTheme === 'light' ? '#fffbdd' : '#5b594b' }}
+        >
+          <div
+            className={css.modal}
+            onClick={e => e.stopPropagation()}
+            style={{
+              background: darkTheme === 'light' ? '#fffbdd' : '#5b594b',
+            }}
+          >
             <div className={css.modalBox}>
-              <div className={css.circleTitile}></div>
-              <h2 className={css.titleModal}>Прайс</h2>
+              <div
+                className={css.circleTitile}
+                style={{
+                  background:
+                    darkTheme === 'light'
+                      ? 'linear-gradient(0deg, #fffbdd85 52%, #9997854d 100%)'
+                      : 'linear-gradient(0deg, #5b594b 52%, #fffbdd85 100%)',
+                }}
+              ></div>
+              <h3 className={css.titleModal}>Прайс</h3>
 
               <ul className={css.textModal}>
                 <li className={css.textModalItem}>
-                  Денне перебування без заселення - 150 грн
+                  <p>Денне перебування без заселення - 150 грн</p>
                 </li>
                 {/* <li className={css.textModalItem}>Перебування у буденний день - 300 грн з людини</li> */}
                 {/* <li className={css.textModalItem}>Перебування у вихідний день - 350 грн з людини</li> */}
                 <li className={css.textModalItem}>
-                  Перебування з заселенням - 400 грн
+                  <p>Перебування з заселенням - 400 грн</p>
                 </li>
 
                 <li className={`${css.textModalItem} ${css.psTextModal}`}>
-                  (Ціна вказана за одну особу)
+                  <p>(Ціна вказана за одну особу)</p>
                 </li>
               </ul>
 
               <h3 className={css.subtitleModal}>У вартість входить:</h3>
 
               <ul className={css.modalDescr}>
-                <li className={css.modalDescrItem}>мангал</li>
-                <li className={css.modalDescrItem}>альтанка</li>
-                <li className={css.modalDescrItem}>стоянка</li>
+                <li className={css.modalDescrItem}>
+                  <p>мангал</p>
+                </li>
+                <li className={css.modalDescrItem}>
+                  <p>альтанка</p>
+                </li>
+                <li className={css.modalDescrItem}>
+                  <p>стоянка</p>
+                </li>
               </ul>
 
               <div className={css.modalReservedBox}>
