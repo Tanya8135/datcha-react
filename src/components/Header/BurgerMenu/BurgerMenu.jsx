@@ -2,13 +2,25 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { selectTheme } from '../../../redux/selectors';
 
-// import css from "./BurgerMenu.module.css";
 import css from './BurgerMenu.module.scss';
 import BtnClose from './BtnClose';
 import BurgerMenuContent from './BurgerMenuContent';
+import { useEffect } from 'react';
 
 function BurgerMenu({ isMenuOpen, toggleMenu }) {
   const darkTheme = useSelector(selectTheme);
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+
+    return () => {
+      document.body.classList.remove('no-scroll');
+    };
+  }, [isMenuOpen]);
 
   return (
     <div

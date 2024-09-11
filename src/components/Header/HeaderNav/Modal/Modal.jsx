@@ -2,12 +2,26 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { selectTheme } from '../../../../redux/selectors';
 import { IoCloseOutline } from 'react-icons/io5';
+import { useEffect } from 'react';
 
 import css from './Modal.module.scss';
 import cssBtnClose from '../../BurgerMenu/BtnClose/BtnClose.module.scss';
 
 function Modal({ isOpen, toggleModal }) {
   const darkTheme = useSelector(selectTheme);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+
+    return () => {
+      document.body.classList.remove('no-scroll');
+    };
+  }, [isOpen]);
+
   return (
     <div>
       {isOpen && (

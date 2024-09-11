@@ -7,9 +7,10 @@
   min-width: 100%;
   min-height: 100%;
   background-color: $bg-fon-modal;
-
+  z-index: 10;
   // overflow-y: auto;
   // height: 100vh;
+  overflow: hidden;
 }
 
 .modal {
@@ -40,11 +41,7 @@
   height: 300px;
   border-radius: 50% 50% 50% 50% / 36% 35% 65% 64%;
   background: rgb(255, 251, 221);
-  background: linear-gradient(
-    0deg,
-    #fffbdd85 52%,
-    #9997854d 100%
-  );
+  background: linear-gradient(0deg, #fffbdd85 52%, #9997854d 100%);
   z-index: -1;
 }
 

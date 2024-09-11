@@ -250,3 +250,7 @@ address {
 .lightTheme span {
   border-right: 1px solid $short-line-light;
 }
+
+.no-scroll {
+  overflow: hidden !important;
+}
