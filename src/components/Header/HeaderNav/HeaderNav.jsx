@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom'; /* попробовать использовать вместо useLocation - redux */
 import { FiMenu } from 'react-icons/fi';
 
 import BurgerMenu from '../BurgerMenu';
