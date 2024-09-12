@@ -18,6 +18,7 @@ function SetSocial({ iconColor }) {
             href="https://www.instagram.com/baza_vidpochynku_kr?igsh=MXNrcDZ1cWwzZXNhbQ%3D%3D&utm_source=qr"
             target="_blank"
             rel="noopener nofollow noreferrer"
+            className={css.linkSetSocial}
           >
             <LuInstagram
               className={iconColor}
@@ -30,6 +31,7 @@ function SetSocial({ iconColor }) {
             href="https://www.facebook.com/datcha.afalina"
             target="_blank"
             rel="noopener nofollow noreferrer"
+            className={css.linkSetSocial}
           >
             <RiFacebookFill
               className={iconColor}
@@ -42,6 +44,7 @@ function SetSocial({ iconColor }) {
             href="https://t.me/datcha_bv"
             target="_blank"
             rel="noopener nofollow noreferrer"
+            className={css.linkSetSocial}
           >
             <BsTelegram
               className={iconColor}

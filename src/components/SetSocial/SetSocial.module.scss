@@ -31,3 +31,11 @@
     }
   }
 }
+
+.linkSetSocial {
+  cursor: none;
+
+  @include desktop {
+    cursor: pointer;
+  }
+}
