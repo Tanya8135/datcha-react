@@ -14,6 +14,10 @@
     color: $accent-color;
     background-color: transparent;
   }
+
+  @include desktop {
+    cursor: pointer;
+  }
 }
 
 .menuCloseIcon {
