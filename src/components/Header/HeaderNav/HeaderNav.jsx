@@ -9,14 +9,14 @@ function HeaderNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-    console.log('Menu state:', !isMenuOpen);
+    // console.log('Menu state:', !isMenuOpen);
   };
 
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleModal = () => {
     setIsOpen(!isOpen);
-    console.log('Menu state:', !isOpen);
+    // console.log('Menu state:', !isOpen);
   };
 
   return (
