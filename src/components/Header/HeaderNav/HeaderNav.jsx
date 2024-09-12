@@ -1,22 +1,26 @@
 import React, { useState } from 'react';
+import { lazy, Suspense } from 'react';
 import { FiMenu } from 'react-icons/fi';
 
 import css from './HeaderNav.module.scss';
-import BurgerMenu from '../BurgerMenu';
-import Modal from './Modal';
+
+const BurgerMenu = lazy(() =>
+  import('components/Header/BurgerMenu/BurgerMenu')
+);
+const Modal = lazy(() => import('components/Header/HeaderNav/Modal/Modal'));
 
 function HeaderNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-    console.log('Menu state:', !isMenuOpen);
+    // console.log('Menu state:', !isMenuOpen);
   };
-
-  const [isOpen, setIsOpen] = useState(false);
 
   const toggleModal = () => {
     setIsOpen(!isOpen);
-    console.log('Menu state:', !isOpen);
+    // console.log('Menu state:', !isOpen);
   };
 
   return (
@@ -61,9 +65,14 @@ function HeaderNav() {
           </button>
         </div>
       </div>
-      <Modal isOpen={isOpen} toggleModal={toggleModal} />
 
-      <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      <Suspense fallback={<div>Loading Menu...</div>}>
+        <Modal isOpen={isOpen} toggleModal={toggleModal} />
+      </Suspense>
+
+      <Suspense fallback={<div>Loading Modal</div>}>
+        <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      </Suspense>
     </div>
   );
 }
