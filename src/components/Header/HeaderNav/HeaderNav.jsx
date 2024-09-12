@@ -1,22 +1,47 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom'; /* попробовать использовать вместо useLocation - redux */
 import { FiMenu } from 'react-icons/fi';
 
-import css from './HeaderNav.module.scss';
 import BurgerMenu from '../BurgerMenu';
 import Modal from './Modal';
+import css from './HeaderNav.module.scss';
 
 function HeaderNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const modalOpen = params.get('price') === 'open';
+    const menuOpen = params.get('menu') === 'open';
+
+    setIsOpen(modalOpen);
+    setMenuOpen(menuOpen);
+  }, [location.search]);
+
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-    console.log('Menu state:', !isMenuOpen);
-  };
 
-  const [isOpen, setIsOpen] = useState(false);
+    if (!isMenuOpen) {
+      navigate('?menu=open');
+    } else {
+      navigate('?');
+    }
+    // console.log('Menu state:', !isMenuOpen);
+  };
 
   const toggleModal = () => {
     setIsOpen(!isOpen);
-    console.log('Menu state:', !isOpen);
+
+    if (!isOpen) {
+      navigate('?price=open');
+    } else {
+      navigate('/');
+    }
+    // console.log('Menu state:', !isOpen);
   };
 
   return (
@@ -61,9 +86,12 @@ function HeaderNav() {
           </button>
         </div>
       </div>
-      <Modal isOpen={isOpen} toggleModal={toggleModal} />
 
-      <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      {isOpen && <Modal isOpen={isOpen} toggleModal={toggleModal} />}
+
+      {isMenuOpen && (
+        <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      )}
     </div>
   );
 }
