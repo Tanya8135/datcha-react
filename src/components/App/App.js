@@ -3,19 +3,17 @@ import { Route, Routes } from 'react-router-dom';
 
 // import css from './App.module.css';
 import Header from 'components/Header';
-// import Header from 'components/pages/Header';
-
-
+// import Hero from 'components/Hero';
 
 const Home = lazy(() => import('../pages/Home/Home'))
 const BurgerMenu = lazy(() => import('components/Header/BurgerMenu/BurgerMenu'));
 const Modal = lazy(() => import('components/Header/HeaderNav/Modal/Modal'));
-// const Hero = lazy(() => import('components/Hero/Hero'));
 
 function App() {
   return (
     <div>
       <Header />
+      {/* <Hero /> */}
 
       <Suspense fallback={<div>Loading...</div>}>
 

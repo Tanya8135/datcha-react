@@ -1,30 +1,34 @@
-import React, { useState } from 'react';
-import { lazy, Suspense } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { FiMenu } from 'react-icons/fi';
 
+import BurgerMenu from '../BurgerMenu';
+import Modal from './Modal';
 import css from './HeaderNav.module.scss';
-// import BurgerMenu from '../BurgerMenu';
-// import Modal from './Modal';
-
-const BurgerMenu = lazy(() =>
-  import('components/Header/BurgerMenu/BurgerMenu')
-);
-const Modal = lazy(() => import('components/Header/HeaderNav/Modal/Modal'));
 
 function HeaderNav() {
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
   const navigate = useNavigate();
+  const location = useLocation();
+
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const modalOpen = params.get('price') === 'open';
+    const menuOpen = params.get('menu') === 'open';
+
+    setIsOpen(modalOpen);
+    setMenuOpen(menuOpen);
+  }, [location.search]);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
 
     if (!isMenuOpen) {
-      navigate('/price');
+      navigate('?menu=open');
     } else {
-      navigate('/');
+      navigate('?');
     }
     // console.log('Menu state:', !isMenuOpen);
   };
@@ -33,7 +37,7 @@ function HeaderNav() {
     setIsOpen(!isOpen);
 
     if (!isOpen) {
-      navigate('/price');
+      navigate('?price=open');
     } else {
       navigate('/');
     }
@@ -83,16 +87,10 @@ function HeaderNav() {
         </div>
       </div>
 
-      {isOpen && (
-        <Suspense fallback={<div>Loading Modal...</div>}>
-          <Modal isOpen={isOpen} toggleModal={toggleModal} />
-        </Suspense>
-      )}
+      {isOpen && <Modal isOpen={isOpen} toggleModal={toggleModal} />}
 
       {isMenuOpen && (
-        <Suspense fallback=<div>Loading Menu...</div>>
-          <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
-        </Suspense>
+        <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
       )}
     </div>
   );
