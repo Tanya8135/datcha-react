@@ -7,6 +7,14 @@
   cursor: none;
 }
 
+.logo {
+  cursor: none;
+
+  @include desktop {
+    cursor: pointer;
+  }
+}
+
 .logoImg {
   & {
     width: 170px;

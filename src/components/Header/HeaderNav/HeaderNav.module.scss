@@ -41,6 +41,10 @@
     display: block;
     @include short-font(20px, 0.05em);
   }
+
+  @include tablet {
+    cursor: none;
+  }
 }
 
 .btnPrice {

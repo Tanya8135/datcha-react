@@ -34,4 +34,8 @@
     color: $icon-light;
     margin-left: 4px;
   }
+
+  @include tablet {
+    cursor: none;
+  }
 }
