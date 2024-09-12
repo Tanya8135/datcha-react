@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/datcha-react/static/css/main.3dc3525e.css",
-    "main.js": "/datcha-react/static/js/main.461d85d9.js",
+    "main.css": "/datcha-react/static/css/main.865dbd38.css",
+    "main.js": "/datcha-react/static/js/main.bc24f126.js",
     "static/css/724.9a434552.chunk.css": "/datcha-react/static/css/724.9a434552.chunk.css",
     "static/js/724.a970d6c6.chunk.js": "/datcha-react/static/js/724.a970d6c6.chunk.js",
     "static/js/696.7c469628.chunk.js": "/datcha-react/static/js/696.7c469628.chunk.js",
@@ -35,14 +35,14 @@
     "static/media/marck-script-v20-latin-regular.woff2": "/datcha-react/static/media/marck-script-v20-latin-regular.7c11d28094db2889f383.woff2",
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
-    "main.3dc3525e.css.map": "/datcha-react/static/css/main.3dc3525e.css.map",
-    "main.461d85d9.js.map": "/datcha-react/static/js/main.461d85d9.js.map",
+    "main.865dbd38.css.map": "/datcha-react/static/css/main.865dbd38.css.map",
+    "main.bc24f126.js.map": "/datcha-react/static/js/main.bc24f126.js.map",
     "724.9a434552.chunk.css.map": "/datcha-react/static/css/724.9a434552.chunk.css.map",
     "724.a970d6c6.chunk.js.map": "/datcha-react/static/js/724.a970d6c6.chunk.js.map",
     "696.7c469628.chunk.js.map": "/datcha-react/static/js/696.7c469628.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dc3525e.css",
-    "static/js/main.461d85d9.js"
+    "static/css/main.865dbd38.css",
+    "static/js/main.bc24f126.js"
   ]
 }
