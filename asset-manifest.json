@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/datcha-react/static/css/main.31b6f0cd.css",
-    "main.js": "/datcha-react/static/js/main.c4d8d6d7.js",
-    "static/css/724.9a434552.chunk.css": "/datcha-react/static/css/724.9a434552.chunk.css",
-    "static/js/724.a970d6c6.chunk.js": "/datcha-react/static/js/724.a970d6c6.chunk.js",
-    "static/js/696.7c469628.chunk.js": "/datcha-react/static/js/696.7c469628.chunk.js",
+    "main.css": "/datcha-react/static/css/main.cbedf9f4.css",
+    "main.js": "/datcha-react/static/js/main.3689bf32.js",
+    "static/css/799.7b43ad6e.chunk.css": "/datcha-react/static/css/799.7b43ad6e.chunk.css",
+    "static/js/799.c66d87d3.chunk.js": "/datcha-react/static/js/799.c66d87d3.chunk.js",
+    "static/js/382.a19136e1.chunk.js": "/datcha-react/static/js/382.a19136e1.chunk.js",
     "static/media/bgr-img-desk@2.jpg": "/datcha-react/static/media/bgr-img-desk@2.8b7a9bd68b619f5f6cbc.jpg",
     "static/media/bgr-img-tabl@2.jpg": "/datcha-react/static/media/bgr-img-tabl@2.23bd547bdbafe12ccee0.jpg",
     "static/media/bgr-img-mob@2.jpg": "/datcha-react/static/media/bgr-img-mob@2.708f46a81e716c1c4e07.jpg",
@@ -35,14 +35,14 @@
     "static/media/marck-script-v20-latin-regular.woff2": "/datcha-react/static/media/marck-script-v20-latin-regular.7c11d28094db2889f383.woff2",
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
-    "main.31b6f0cd.css.map": "/datcha-react/static/css/main.31b6f0cd.css.map",
-    "main.c4d8d6d7.js.map": "/datcha-react/static/js/main.c4d8d6d7.js.map",
-    "724.9a434552.chunk.css.map": "/datcha-react/static/css/724.9a434552.chunk.css.map",
-    "724.a970d6c6.chunk.js.map": "/datcha-react/static/js/724.a970d6c6.chunk.js.map",
-    "696.7c469628.chunk.js.map": "/datcha-react/static/js/696.7c469628.chunk.js.map"
+    "main.cbedf9f4.css.map": "/datcha-react/static/css/main.cbedf9f4.css.map",
+    "main.3689bf32.js.map": "/datcha-react/static/js/main.3689bf32.js.map",
+    "799.7b43ad6e.chunk.css.map": "/datcha-react/static/css/799.7b43ad6e.chunk.css.map",
+    "799.c66d87d3.chunk.js.map": "/datcha-react/static/js/799.c66d87d3.chunk.js.map",
+    "382.a19136e1.chunk.js.map": "/datcha-react/static/js/382.a19136e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31b6f0cd.css",
-    "static/js/main.c4d8d6d7.js"
+    "static/css/main.cbedf9f4.css",
+    "static/js/main.3689bf32.js"
   ]
 }
