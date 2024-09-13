@@ -1,9 +1,9 @@
 import { lazy, Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
-// import css from './App.module.css';
 import Header from 'components/Header';
-// import Hero from 'components/Hero';
+// import Loader from 'components/Loader';
+
 
 const Home = lazy(() => import('../pages/Home/Home'))
 const BurgerMenu = lazy(() => import('components/Header/BurgerMenu/BurgerMenu'));
@@ -12,10 +12,9 @@ const Modal = lazy(() => import('components/Header/HeaderNav/Modal/Modal'));
 function App() {
   return (
     <div>
-      <Header />
-      {/* <Hero /> */}
-
       <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        {/* <Hero /> */}
 
         <Routes>
           <Route index element={<Home />}></Route>
