@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import photoDataCommon from 'data/photoDataCommon';
 import FsLightbox from 'fslightbox-react';
 import css from './PhotoCommon.module.scss';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-
+import 'swiper/css/scrollbar';
 import { Scrollbar } from 'swiper/modules';
+
+import photoDataCommon from 'data/photoDataCommon';
 
 function PhotoCommon() {
   const [lightboxController, setLightboxController] = useState({
@@ -28,6 +29,7 @@ function PhotoCommon() {
 
         <div className={css.PhotoCommonBox}>
           <Swiper
+            lazy={{ enabled: true }}
             className={`${css.swiperSlideMob} mySwiper`}
             grabCursor={true}
             modules={[Scrollbar]}
@@ -52,8 +54,9 @@ function PhotoCommon() {
                   <img
                     src={photo.src}
                     alt={photo.alt}
-                    className={css.photoImg}
+                    className={`swiper-lazy ${css.photoImg}`}
                   />
+                  <div className="swiper-lazy-preloader"></div>
                 </div>
               </SwiperSlide>
             ))}

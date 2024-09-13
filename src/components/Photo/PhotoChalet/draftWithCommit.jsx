@@ -1,19 +1,23 @@
 import { useState } from 'react';
+import photoDataChalet from 'data/photoDataChalet';
 import FsLightbox from 'fslightbox-react';
 import cssCommonPhoto from '../PhotoCommon/PhotoCommon.module.scss';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
+import 'swiper/css/effect-cards';
 import 'swiper/css/scrollbar';
-import { Scrollbar } from 'swiper/modules';
-
-import photoDataChalet from 'data/photoDataChalet';
+// eslint-disable-next-line
+import { EffectCards, Scrollbar } from 'swiper/modules';
+// import useSlideMob from 'components/hooks/useSlide/useSlideMob';
 
 function PhotoChalet() {
   const [lightboxController, setLightboxController] = useState({
     toggler: false,
     slide: 1,
   });
+
+  // const isMobileSlide = useSlideMob();
 
   const openLightboxOnSlide = slideIndex => {
     setLightboxController({
@@ -27,9 +31,32 @@ function PhotoChalet() {
       <h4 className={cssCommonPhoto.subtitlePhoto}>Шале</h4>
 
       <div className={cssCommonPhoto.PhotoCommonBox}>
+        {/* <Swiper
+          className={`${cssCommonPhoto.swiperCardMob} mySwiper`}
+          // className="mySwiper"
+          effect={'cards'}
+          grabCursor={true}
+          modules={[EffectCards]}
+        >
+          {photoDataChalet.map((photo, index) => (
+            <SwiperSlide key={photo.id}>
+              <div
+                className={cssCommonPhoto.photoCommonSlide}
+                onClick={() => openLightboxOnSlide(index)}
+              >
+                <img
+                  src={photo.src}
+                  alt={photo.alt}
+                  className={cssCommonPhoto.photoImg}
+                />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper> */}
+
         <Swiper
-          lazy={{ enabled: true }}
           className={`${cssCommonPhoto.swiperSlideMob} mySwiper`}
+          // className="mySwiper"
           grabCursor={true}
           modules={[Scrollbar]}
           scrollbar={{ draggable: true }}
@@ -53,9 +80,8 @@ function PhotoChalet() {
                 <img
                   src={photo.src}
                   alt={photo.alt}
-                  className={`swiper-lazy ${cssCommonPhoto.photoImg}`}
+                  className={cssCommonPhoto.photoImg}
                 />
-                <div className="swiper-lazy-preloader"></div>
               </div>
             </SwiperSlide>
           ))}
