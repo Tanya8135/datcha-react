@@ -14,7 +14,7 @@ function HeaderLogo() {
   return (
     <div>
       <div className={css.logoHeader}>
-        <NavLink to="/datcha-react" className={css.logo}>
+        <NavLink to="/" className={css.logo}>
           <img
             src={darkTheme === 'dark' ? logoDark : logo}
             alt="logo"
