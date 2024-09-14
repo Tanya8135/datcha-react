@@ -12,6 +12,7 @@ function ThemeToggle() {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    console.log('Current theme:', darkTheme);
     // Добавляем или удаляем классы на корневом элементе
     if (darkTheme === 'dark') {
       document.body.classList.add('darkTheme');

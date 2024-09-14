@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import {
-  useNavigate,
-  useLocation,
-} from 'react-router-dom'; /* попробовать использовать вместо useLocation - redux */
+import React from 'react';
+
+import { useSelector, useDispatch } from 'react-redux';
+import { selectIsMenuOpen, selectIsModalOpen } from '../../../redux/selectors';
+import { toggleMenu, toggleModal } from '../../../redux/modalbmSlice';
 import { FiMenu } from 'react-icons/fi';
 
 import BurgerMenu from '../BurgerMenu';
@@ -10,29 +10,16 @@ import Modal from './Modal';
 import css from './HeaderNav.module.scss';
 
 function HeaderNav() {
-  const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
+  const dispatch = useDispatch();
+  const isMenuOpen = useSelector(selectIsMenuOpen);
+  const isModalOpen = useSelector(selectIsModalOpen);
 
-  const navigate = useNavigate();
-  const location = useLocation();
-
-  useEffect(() => {
-    const params = new URLSearchParams(location.search);
-    const modalOpen = params.get('price') === 'open';
-    const menuOpen = params.get('menu') === 'open';
-
-    setIsOpen(modalOpen);
-    setMenuOpen(menuOpen);
-  }, [location.search]);
-
-  const toggleMenu = () => {
-    setMenuOpen(!isMenuOpen);
-    navigate(!isMenuOpen ? '?menu=open' : '?');
+  const handleToggleMenu = () => {
+    dispatch(toggleMenu());
   };
 
-  const toggleModal = () => {
-    setIsOpen(!isOpen);
-    navigate(!isOpen ? '?price=open' : '/');
+  const handleToggleModal = () => {
+    dispatch(toggleModal());
   };
 
   return (
@@ -43,7 +30,7 @@ function HeaderNav() {
             <li className={css.navSiteItem}>
               <button
                 type="button"
-                onClick={toggleModal}
+                onClick={handleToggleModal}
                 className={`${css.navSiteLink} ${css.btnPrice}`}
               >
                 Прайс
@@ -71,16 +58,18 @@ function HeaderNav() {
             className={css.btnBurgerMenu}
             aria-expanded={isMenuOpen}
             aria-controls="mobile-menu"
-            onClick={toggleMenu}
+            onClick={handleToggleMenu}
           >
             <FiMenu className={css.btnBurgerMenuIcon} />
           </button>
         </div>
       </div>
 
-      {isOpen && <Modal isOpen={isOpen} toggleModal={toggleModal} />}
+      {isModalOpen && (
+        <Modal isOpen={isModalOpen} toggleModal={handleToggleModal} />
+      )}
 
-      <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+      <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={handleToggleMenu} />
     </div>
   );
 }
