@@ -20,7 +20,7 @@ function Footer() {
         <div className={css.footerContainer}>
           <div className={css.footerBox}>
             <div className={css.logoFooter}>
-              <NavLink to="/datcha-react" className={cssForLogo.logo}>
+              <NavLink to="/" className={cssForLogo.logo}>
                 <img
                   src={darkTheme === 'dark' ? logoDark : logo}
                   alt="logo"
