@@ -87,10 +87,18 @@ function Modal({ isOpen, toggleModal }) {
                   </b>
                 </p>
                 <div className={css.modalContactBox}>
-                  <a className={css.contactModal} href="tel:+380675609482">
+                  <a
+                    className={css.contactModal}
+                    aria-label="Подзвонити 067 560 94 82"
+                    href="tel:+380675609482"
+                  >
                     0675609482
                   </a>
-                  <a className={css.contactModal} href="tel:+380964875185">
+                  <a
+                    className={css.contactModal}
+                    aria-label="Подзвонити 096 487 51 85"
+                    href="tel:+380964875185"
+                  >
                     0964875185
                   </a>
                 </div>
@@ -105,6 +113,7 @@ function Modal({ isOpen, toggleModal }) {
                       target="_blank"
                       rel="noopener nofollow noreferrer"
                       className={css.socialModalLink}
+                      aria-label="Перейти до Instagram"
                     >
                       Instagram
                       <span className={css.socialModalBorder}></span>
@@ -116,6 +125,7 @@ function Modal({ isOpen, toggleModal }) {
                       target="_blank"
                       rel="noopener nofollow noreferrer"
                       className={css.socialModalLink}
+                      aria-label="Перейти на Telegram"
                     >
                       Telegram
                       <span className={css.socialModalBorder}></span>
@@ -128,6 +138,7 @@ function Modal({ isOpen, toggleModal }) {
                       target="_blank"
                       rel="noopener nofollow noreferrer"
                       className={css.socialModalLink}
+                      aria-label="Перейти на Facebook"
                     >
                       Facebook
                       <span className={css.socialModalBorder}></span>
@@ -141,6 +152,7 @@ function Modal({ isOpen, toggleModal }) {
                 type="button"
                 className={`${cssBtnClose.menuToggle} ${css.modalClose}`}
                 onClick={toggleModal}
+                aria-label="Закрити Прайс"
               >
                 <IoCloseOutline className={cssBtnClose.menuCloseIcon} />
                 {/* <svg width="38" height="38">

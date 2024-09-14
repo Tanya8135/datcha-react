@@ -19,6 +19,7 @@ function SetSocial({ iconColor }) {
             target="_blank"
             rel="noopener nofollow noreferrer"
             className={css.linkSetSocial}
+            aria-label="Перейти до Instagram"
           >
             <LuInstagram
               className={iconColor}
@@ -32,6 +33,7 @@ function SetSocial({ iconColor }) {
             target="_blank"
             rel="noopener nofollow noreferrer"
             className={css.linkSetSocial}
+            aria-label="Перейти на Facebook"
           >
             <RiFacebookFill
               className={iconColor}
@@ -45,6 +47,7 @@ function SetSocial({ iconColor }) {
             target="_blank"
             rel="noopener nofollow noreferrer"
             className={css.linkSetSocial}
+            aria-label="Перейти на Telegram"
           >
             <BsTelegram
               className={iconColor}

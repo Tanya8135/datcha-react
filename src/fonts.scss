@@ -5,9 +5,8 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 100;
-  src: url('../public//fonts/roboto-slab-v34-cyrillic_latin-100.woff2')
-      format('woff2'),
-    url('../public//fonts/roboto-slab-v34-cyrillic_latin-100.woff') format('woff');
+  src: url('../public/fonts/roboto-slab-v34-cyrillic_latin-100.woff2')
+    format('woff2');
 }
 
 // 300
@@ -16,9 +15,8 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 300;
-  src: url('../public//fonts/roboto-slab-v34-cyrillic_latin-300.woff2')
-      format('woff2'),
-    url('../public//fonts/roboto-slab-v34-cyrillic_latin-300.woff') format('woff');
+  src: url('../public/fonts/roboto-slab-v34-cyrillic_latin-300.woff2')
+    format('woff2');
 }
 
 //400 regular
@@ -27,9 +25,8 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 400;
-  src: url('../public//fonts/roboto-slab-v34-cyrillic_latin-regular.woff2')
-      format('woff2'),
-    url('../public//fonts/roboto-slab-v34-cyrillic_latin-regular.woff') format('woff');
+  src: url('../public/fonts/roboto-slab-v34-cyrillic_latin-regular.woff2')
+    format('woff2');
 }
 
 //600
@@ -38,9 +35,8 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 600;
-  src: url('../public//fonts/roboto-slab-v34-cyrillic_latin-600.woff2')
-      format('woff2'),
-    url('../public//fonts/roboto-slab-v34-cyrillic_latin-600.woff') format('woff');
+  src: url('../public/fonts/roboto-slab-v34-cyrillic_latin-600.woff2')
+    format('woff2');
 }
 
 //700
@@ -49,9 +45,8 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 700;
-  src: url('../public//fonts/roboto-slab-v34-cyrillic_latin-700.woff2')
-      format('woff2'),
-    url('../public//fonts/roboto-slab-v34-cyrillic_latin-700.woff') format('woff');
+  src: url('../public/fonts/roboto-slab-v34-cyrillic_latin-700.woff2')
+    format('woff2');
 }
 
 //800
@@ -60,9 +55,8 @@
   font-family: 'Roboto Slab';
   font-style: normal;
   font-weight: 800;
-  src: url('../public//fonts/roboto-slab-v34-cyrillic_latin-800.woff2')
-      format('woff2'),
-    url('../public//fonts/roboto-slab-v34-cyrillic_latin-800.woff') format('woff');
+  src: url('../public/fonts/roboto-slab-v34-cyrillic_latin-800.woff2')
+    format('woff2');
 }
 
 /* EB Garamobd*/
@@ -72,9 +66,8 @@
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 400;
-  src: url('../public//fonts/eb-garamond-v27-cyrillic_latin-regular.woff2')
-      format('woff2'),
-    url('../public//fonts/eb-garamond-v27-cyrillic_latin-regular.woff') format('woff');
+  src: url('../public/fonts/eb-garamond-v27-cyrillic_latin-regular.woff2')
+    format('woff2');
 }
 
 //500
@@ -83,9 +76,8 @@
   font-family: 'EB Garamond';
   font-style: normal;
   font-weight: 500;
-  src: url('../public//fonts/eb-garamond-v27-cyrillic_latin-500.woff2')
-      format('woff2'),
-    url('../public//fonts/eb-garamond-v27-cyrillic_latin-500.woff') format('woff');
+  src: url('../public/fonts/eb-garamond-v27-cyrillic_latin-500.woff2')
+    format('woff2');
 }
 
 //600
@@ -95,15 +87,14 @@
   font-style: normal;
   font-weight: 600;
   src: url('../public/fonts/eb-garamond-v27-cyrillic_latin-600.woff2')
-      format('woff2'),
-    url('../public/fonts/eb-garamond-v27-cyrillic_latin-600.woff') format('woff');
+    format('woff2');
 }
 
 @font-face {
-    font-display: swap;
-    font-family: 'Marck Script';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../public/fonts/marck-script-v20-latin-regular.woff2') format('woff2'),
-      url('../public/fonts/marck-script-v20-latin-regular.woff') format('woff');
-  }
+  font-display: swap;
+  font-family: 'Marck Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../public/fonts/marck-script-v20-latin-regular.woff2')
+    format('woff2');
+}

@@ -14,7 +14,7 @@ function HeaderLogo() {
   return (
     <div>
       <div className={css.logoHeader}>
-        <NavLink to="/" className={css.logo}>
+        <NavLink to="/" className={css.logo} aria-label="На головну">
           <img
             src={darkTheme === 'dark' ? logoDark : logo}
             alt="logo"

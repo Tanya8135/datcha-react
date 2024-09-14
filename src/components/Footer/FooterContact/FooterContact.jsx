@@ -20,7 +20,11 @@ function FooterContact() {
               className={css.phoneIconFooter}
               style={{ color: darkTheme === 'light' ? '#423d1b' : '#cdcab3' }}
             />
-            <a href="tel:+380675609482" className={css.contactLink}>
+            <a
+              href="tel:+380675609482"
+              className={css.contactLink}
+              aria-label="Подзвонити 067 560 94 82"
+            >
               380675609482
             </a>
           </li>
@@ -29,7 +33,11 @@ function FooterContact() {
               className={css.phoneIconFooter}
               style={{ color: darkTheme === 'light' ? '#423d1b' : '#cdcab3' }}
             />
-            <a href="tel:+380964875185" className={css.contactLink}>
+            <a
+              href="tel:+380964875185"
+              className={css.contactLink}
+              aria-label="Подзвонити 096 487 51 85"
+            >
               0964875185
             </a>
           </li>
@@ -40,6 +48,7 @@ function FooterContact() {
         <a
           href="tel:+380964875185"
           className={css.btnReservedTablet}
+          aria-label="Забронювати відпочинок"
           style={{ color: darkTheme === 'light' ? '#423d1b' : '#423d1b' }}
         >
           Забронювати
