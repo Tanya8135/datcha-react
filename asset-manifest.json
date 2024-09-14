@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/datcha-react/static/css/main.83256c7a.css",
-    "main.js": "/datcha-react/static/js/main.24946b44.js",
+    "main.js": "/datcha-react/static/js/main.35600845.js",
     "static/css/461.d304d17d.chunk.css": "/datcha-react/static/css/461.d304d17d.chunk.css",
-    "static/js/461.ee28cd35.chunk.js": "/datcha-react/static/js/461.ee28cd35.chunk.js",
-    "static/js/417.8a88a254.chunk.js": "/datcha-react/static/js/417.8a88a254.chunk.js",
+    "static/js/461.50b36928.chunk.js": "/datcha-react/static/js/461.50b36928.chunk.js",
+    "static/js/417.3a4c9214.chunk.js": "/datcha-react/static/js/417.3a4c9214.chunk.js",
     "static/css/910.bebc7b26.chunk.css": "/datcha-react/static/css/910.bebc7b26.chunk.css",
-    "static/js/910.a5db5330.chunk.js": "/datcha-react/static/js/910.a5db5330.chunk.js",
+    "static/js/910.7dbb0b19.chunk.js": "/datcha-react/static/js/910.7dbb0b19.chunk.js",
     "static/js/394.6efe9ce4.chunk.js": "/datcha-react/static/js/394.6efe9ce4.chunk.js",
     "static/js/294.bb2f75b9.chunk.js": "/datcha-react/static/js/294.bb2f75b9.chunk.js",
     "static/css/24.e8f2d40f.chunk.css": "/datcha-react/static/css/24.e8f2d40f.chunk.css",
@@ -41,18 +41,18 @@
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
     "main.83256c7a.css.map": "/datcha-react/static/css/main.83256c7a.css.map",
-    "main.24946b44.js.map": "/datcha-react/static/js/main.24946b44.js.map",
+    "main.35600845.js.map": "/datcha-react/static/js/main.35600845.js.map",
     "461.d304d17d.chunk.css.map": "/datcha-react/static/css/461.d304d17d.chunk.css.map",
-    "461.ee28cd35.chunk.js.map": "/datcha-react/static/js/461.ee28cd35.chunk.js.map",
-    "417.8a88a254.chunk.js.map": "/datcha-react/static/js/417.8a88a254.chunk.js.map",
+    "461.50b36928.chunk.js.map": "/datcha-react/static/js/461.50b36928.chunk.js.map",
+    "417.3a4c9214.chunk.js.map": "/datcha-react/static/js/417.3a4c9214.chunk.js.map",
     "910.bebc7b26.chunk.css.map": "/datcha-react/static/css/910.bebc7b26.chunk.css.map",
-    "910.a5db5330.chunk.js.map": "/datcha-react/static/js/910.a5db5330.chunk.js.map",
+    "910.7dbb0b19.chunk.js.map": "/datcha-react/static/js/910.7dbb0b19.chunk.js.map",
     "394.6efe9ce4.chunk.js.map": "/datcha-react/static/js/394.6efe9ce4.chunk.js.map",
     "294.bb2f75b9.chunk.js.map": "/datcha-react/static/js/294.bb2f75b9.chunk.js.map",
     "24.e8f2d40f.chunk.css.map": "/datcha-react/static/css/24.e8f2d40f.chunk.css.map"
   },
   "entrypoints": [
     "static/css/main.83256c7a.css",
-    "static/js/main.24946b44.js"
+    "static/js/main.35600845.js"
   ]
 }
