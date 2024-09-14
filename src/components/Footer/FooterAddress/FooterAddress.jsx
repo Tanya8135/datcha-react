@@ -16,6 +16,7 @@ function FooterAddress() {
               target="_blank"
               rel="noopener nofollow noreferrer"
               className={css.mapIcon}
+              aria-label="Посилання на геоточку"
             >
               <img src={mapIcon} alt="map" />
             </a>
@@ -25,6 +26,7 @@ function FooterAddress() {
               target="_blank"
               rel="noopener nofollow noreferrer"
               className={css.addressLink}
+              aria-label="Адреса: с. Чкаловка, пров. Набережний 5а"
             >
               пров. Набережний 5а <br />
               с. Чкаловка

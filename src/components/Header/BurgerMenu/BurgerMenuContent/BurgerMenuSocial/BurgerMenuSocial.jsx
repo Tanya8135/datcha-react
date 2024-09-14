@@ -1,4 +1,4 @@
-import css from "./BurgerMenuSocial.module.scss";
+import css from './BurgerMenuSocial.module.scss';
 
 function BurgerMenuSocial() {
   return (
@@ -11,6 +11,7 @@ function BurgerMenuSocial() {
               target="_blank"
               rel="noopener nofollow noreferrer"
               className={css.menuSocialLink}
+              aria-label="Перейти до Instagram"
             >
               Instagram
               <span className={css.burgerMenuSocialBorder}></span>
@@ -22,6 +23,7 @@ function BurgerMenuSocial() {
               target="_blank"
               rel="noopener nofollow noreferrer"
               className={css.menuSocialLink}
+              aria-label="Перейти на Telegram"
             >
               Telegram
               <span className={css.burgerMenuSocialBorder}></span>
@@ -33,6 +35,7 @@ function BurgerMenuSocial() {
               target="_blank"
               rel="noopener nofollow noreferrer"
               className={css.menuSocialLink}
+              aria-label="Перейти на Facebook"
             >
               Facebook
               <span className={css.burgerMenuSocialBorder}></span>

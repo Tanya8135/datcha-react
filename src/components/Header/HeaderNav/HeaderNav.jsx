@@ -32,6 +32,7 @@ function HeaderNav() {
                 type="button"
                 onClick={handleToggleModal}
                 className={`${css.navSiteLink} ${css.btnPrice}`}
+                aria-label="Прайс"
               >
                 Прайс
               </button>
@@ -59,6 +60,7 @@ function HeaderNav() {
             aria-expanded={isMenuOpen}
             aria-controls="mobile-menu"
             onClick={handleToggleMenu}
+            aria-label='Меню'
           >
             <FiMenu className={css.btnBurgerMenuIcon} />
           </button>

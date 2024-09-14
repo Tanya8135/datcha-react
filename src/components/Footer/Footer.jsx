@@ -20,7 +20,11 @@ function Footer() {
         <div className={css.footerContainer}>
           <div className={css.footerBox}>
             <div className={css.logoFooter}>
-              <NavLink to="/" className={cssForLogo.logo}>
+              <NavLink
+                to="/"
+                aria-label="На головну"
+                className={cssForLogo.logo}
+              >
                 <img
                   src={darkTheme === 'dark' ? logoDark : logo}
                   alt="logo"

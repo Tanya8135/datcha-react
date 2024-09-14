@@ -15,6 +15,7 @@ function FooterSocial() {
             href="tel:+380964875185"
             className={css.btnReserved}
             style={{ color: darkTheme === 'light' ? '#423d1b' : '#423d1b' }}
+            aria-label="Забронювати відпочинок"
           >
             <div className={css.textReserved}>Забронювати</div>
           </a>

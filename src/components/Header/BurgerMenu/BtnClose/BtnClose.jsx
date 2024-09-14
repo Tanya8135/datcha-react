@@ -13,6 +13,7 @@ function BtnClose({ toggleMenu }) {
       <button
         className={`${css.menuToggle} ${css.menuClose} ${css.jsCloseMenu}`}
         onClick={closeMenu}
+        aria-label="Закрити меню"
       >
         <IoCloseOutline className={css.menuCloseIcon} />
       </button>
