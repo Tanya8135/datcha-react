@@ -24,7 +24,9 @@ function BurgerMenu({ isMenuOpen, toggleMenu }) {
 
   return (
     <div
-      className={css.menuContainer}
+      className={`${css.menuContainer} ${
+        isMenuOpen ? css.jsMenuContainer : ''
+      }`}
       style={{ background: darkTheme === 'light' ? '#fffbdd' : '#5b594b' }}
     >
       {/* btn-function */}

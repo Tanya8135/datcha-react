@@ -80,9 +80,7 @@ function HeaderNav() {
 
       {isOpen && <Modal isOpen={isOpen} toggleModal={toggleModal} />}
 
-      {isMenuOpen && (
-        <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
-      )}
+      <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
     </div>
   );
 }
