@@ -51,6 +51,10 @@ function PhotoChalet() {
                 onClick={() => openLightboxOnSlide(index)}
               >
                 <img
+                  srcSet={photo.srcSet}
+                  sizes="(min-width: 1024px) 376px,
+                      (min-width: 768px) 341px,
+                      240px"
                   src={photo.src}
                   alt={photo.alt}
                   className={`swiper-lazy ${cssCommonPhoto.photoImg}`}
