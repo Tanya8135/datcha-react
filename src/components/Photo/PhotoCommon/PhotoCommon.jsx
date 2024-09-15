@@ -8,6 +8,7 @@ import 'swiper/css/scrollbar';
 import { Scrollbar } from 'swiper/modules';
 
 import photoDataCommon from 'data/photoDataCommon';
+import { getImgForScreenSize } from 'components/utils/imgUtilsFsLght';
 
 function PhotoCommon() {
   const [lightboxController, setLightboxController] = useState({
@@ -68,7 +69,7 @@ function PhotoCommon() {
 
           <FsLightbox
             toggler={lightboxController.toggler}
-            sources={photoDataCommon.map(photo => photo.src)}
+            sources={photoDataCommon.map(photo => getImgForScreenSize(photo))}
             slide={lightboxController.slide}
           />
         </div>
