@@ -38,9 +38,15 @@
     min-height: 320px;
   }
 
-  @include tabletMin {
-    min-width: 320px;
-    max-height: 320px;
+  @include tablet {
+    min-width: 341px;
+    max-height: 370px;
+    margin-bottom: 30px;
+  }
+
+  @include desktop {
+    min-width: 376px;
+    max-height: 420px;
     margin-bottom: 30px;
   }
 }
