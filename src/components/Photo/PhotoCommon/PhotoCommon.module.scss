@@ -35,12 +35,12 @@
 .photoImg {
   & {
     min-width: 240px;
-    min-height: 320px;
+    max-height: 320px;
   }
 
   @include tabletMin {
     min-width: 320px;
-    min-height: 320px;
+    max-height: 320px;
     margin-bottom: 30px;
   }
 }
