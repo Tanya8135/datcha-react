@@ -10,6 +10,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/altanka1@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/altanka1@2.jpg 752w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/altanka1.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/altanka1.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/altanka1.jpg`,
         alt: 'Альтанка'
     },
     {
@@ -156,8 +159,8 @@ const photoDataCommon = [
         alt: 'Будиночек'
     },
     {
-        id: 13, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/cottage4.jpg`, 
+        id: 13,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/cottage4.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/cottage4.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/cottage4.jpg 341w,
@@ -169,8 +172,8 @@ const photoDataCommon = [
         alt: 'Будиночек'
     },
     {
-        id: 14, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/fishing.jpg`, 
+        id: 14,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/fishing.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/fishing.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/fishing.jpg 341w,
@@ -182,8 +185,8 @@ const photoDataCommon = [
         alt: 'Риболовля'
     },
     {
-        id: 15, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/fishing_gear.jpg`, 
+        id: 15,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/fishing_gear.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/fishing_gear.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/fishing_gear.jpg 341w,
@@ -195,8 +198,8 @@ const photoDataCommon = [
         alt: 'Риболовля, снасті'
     },
     {
-        id: 16, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/grill.jpg`, 
+        id: 16,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/grill.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/grill.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/grill.jpg 341w,
@@ -208,8 +211,8 @@ const photoDataCommon = [
         alt: 'Мангал'
     },
     {
-        id: 17, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/kitchen.jpg`, 
+        id: 17,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/kitchen.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/kitchen.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/kitchen.jpg 341w,
@@ -221,8 +224,8 @@ const photoDataCommon = [
         alt: 'Кухня'
     },
     {
-        id: 18, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/pier.jpg`, 
+        id: 18,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/pier.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/pier.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/pier.jpg 341w,
@@ -234,8 +237,8 @@ const photoDataCommon = [
         alt: 'Пірс'
     },
     {
-        id: 19, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/pier_sunset.jpg`, 
+        id: 19,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/pier_sunset.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/pier_sunset.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/pier_sunset.jpg 341w,
@@ -247,8 +250,8 @@ const photoDataCommon = [
         alt: 'Пірс, схід сонця'
     },
     {
-        id: 20, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/room.jpg`, 
+        id: 20,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/room.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/room.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/room.jpg 341w,
@@ -260,8 +263,8 @@ const photoDataCommon = [
         alt: 'Кімната'
     },
     {
-        id: 21, 
-        src: `${process.env.PUBLIC_URL}/images/photo/240/view.jpg`, 
+        id: 21,
+        src: `${process.env.PUBLIC_URL}/images/photo/240/view.jpg`,
         srcSet: `
         ${process.env.PUBLIC_URL}/images/photo/240/view.jpg 240w,
         ${process.env.PUBLIC_URL}/images/photo/341/view.jpg 341w,
