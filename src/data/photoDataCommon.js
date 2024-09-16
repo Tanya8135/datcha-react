@@ -26,6 +26,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/altanka2@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/altanka2@2.jpg 752w
     `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/altanka2.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/altanka2.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/altanka2.jpg`,
         alt: 'Альтанка'
     },
     {
@@ -39,6 +42,10 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/altanka3@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/altanka3@2.jpg 752w
         `,
+
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/altanka3.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/altanka3.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/altanka3.jpg`,
         alt: 'Альтанка'
     },
     {
@@ -52,6 +59,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/altanka2_5@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/altanka2_5@2.jpg 752w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/altanka2_5.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/altanka2_5.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/altanka2_5.jpg`,
         alt: 'Альтанка'
     },
     {
@@ -65,6 +75,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/alley3@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/alley3@2.jpg 752w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/alley3.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/alley3.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/alley3.jpg`,
         alt: 'Алея'
     },
     {
@@ -78,6 +91,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/alley4@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/alley4@2.jpg 752w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/alley4.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/alley4.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/alley4.jpg`,
         alt: 'Алея'
     },
     {
@@ -91,6 +107,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/alley5@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/alley5@2.jpg 752w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/alley5.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/alley5.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/alley5.jpg`,
         alt: 'Алея'
     },
     {
@@ -104,6 +123,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/alley6@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/alley6@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/alley6.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/alley6.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/alley6.jpg`,
         alt: 'Алея'
     },
     {
@@ -117,6 +139,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/alley7@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/alley7@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/alley7.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/alley7.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/alley7.jpg`,
         alt: 'Алея'
     },
     {
@@ -130,6 +155,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/cottage@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/cottage@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/cottage.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/cottage.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/cottage.jpg`,
         alt: 'Будиночек'
     },
     {
@@ -143,6 +171,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/cottage2@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/cottage2@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/cottage2.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/cottage2.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/cottage2.jpg`,
         alt: 'Будиночек'
     },
     {
@@ -156,6 +187,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/cottage3@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/cottage3@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/cottage3.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/cottage3.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/cottage3.jpg`,
         alt: 'Будиночек'
     },
     {
@@ -169,6 +203,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/cottage4@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/cottage4@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/cottage4.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/cottage4.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/cottage4.jpg`,
         alt: 'Будиночек'
     },
     {
@@ -182,6 +219,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/fishing@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/fishing@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/fishing.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/fishing.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/fishing.jpg`,
         alt: 'Риболовля'
     },
     {
@@ -195,6 +235,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/fishing_gear@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/fishing_gear@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/fishing_gear.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/fishing_gear.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/fishing_gear.jpg`,
         alt: 'Риболовля, снасті'
     },
     {
@@ -208,6 +251,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/grill@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/grill@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/grill.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/grill.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/grill.jpg`,
         alt: 'Мангал'
     },
     {
@@ -221,6 +267,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/kitchen@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/kitchen@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/kitchen.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/kitchen.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/kitchen.jpg`,
         alt: 'Кухня'
     },
     {
@@ -234,6 +283,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/pier@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/pier@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/pier.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/pier.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/pier.jpg`,
         alt: 'Пірс'
     },
     {
@@ -247,6 +299,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/pier_sunset@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/pier_sunset@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/pier_sunset.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/pier_sunset.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/pier_sunset.jpg`,
         alt: 'Пірс, схід сонця'
     },
     {
@@ -260,6 +315,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/room@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/room@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/room.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/room.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/room.jpg`,
         alt: 'Кімната'
     },
     {
@@ -273,6 +331,9 @@ const photoDataCommon = [
         ${process.env.PUBLIC_URL}/images/photo/341/view@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/view@2.jpg 572w,
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/view.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/view.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/view.jpg`,
         alt: 'Вид з будиночку'
     },
 ]

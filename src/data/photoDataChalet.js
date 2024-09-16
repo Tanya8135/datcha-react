@@ -10,6 +10,9 @@ const photoDataChalet = [
         ${process.env.PUBLIC_URL}/images/photo/341/chalet@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/chalet@2.jpg 572w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/chalet.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/chalet.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/chalet.jpg`,
         alt: 'Шале'
     },
     {
@@ -23,6 +26,9 @@ const photoDataChalet = [
         ${process.env.PUBLIC_URL}/images/photo/341/chalet1@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/chalet1@2.jpg 572w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/chalet1.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/chalet1.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/chalet1.jpg`,
         alt: 'Шале'
     },
     {
@@ -36,6 +42,9 @@ const photoDataChalet = [
         ${process.env.PUBLIC_URL}/images/photo/341/lodder_chalet@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/lodder_chalet@2.jpg 572w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/lodder_chalet.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/lodder_chalet.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/lodder_chalet.jpg`,
         alt: 'Сходи, шале, перший поверх'
     },
     {
@@ -49,6 +58,9 @@ const photoDataChalet = [
         ${process.env.PUBLIC_URL}/images/photo/341/first_floor@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/first_floor@2.jpg 572w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/first_floor.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/first_floor.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/first_floor.jpg`,
         alt: 'Перший поверх'
     },
     {
@@ -62,6 +74,9 @@ const photoDataChalet = [
         ${process.env.PUBLIC_URL}/images/photo/341/kitchen_chalet@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/kitchen_chalet@2.jpg 572w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/kitchen_chalet.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/kitchen_chalet.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/kitchen_chalet.jpg`,
         alt: 'Кухня'
     },
     {
@@ -75,6 +90,9 @@ const photoDataChalet = [
         ${process.env.PUBLIC_URL}/images/photo/341/second_floor@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/second_floor@2.jpg 572w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/second_floor.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/second_floor.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/second_floor.jpg`,
         alt: 'Другий поверх, шале'
     },
     {
@@ -88,6 +106,9 @@ const photoDataChalet = [
         ${process.env.PUBLIC_URL}/images/photo/341/second_floor_bed@2.jpg 682w,
         ${process.env.PUBLIC_URL}/images/photo/376/second_floor_bed@2.jpg 572w
         `,
+        srcMobile: `${process.env.PUBLIC_URL}/images/photo/fsLght768/second_floor_bed.jpg`,
+        srcTablet: `${process.env.PUBLIC_URL}/images/photo/fsLght1024/second_floor_bed.jpg`,
+        srcDesktop: `${process.env.PUBLIC_URL}/images/photo/fsLght1440/second_floor_bed.jpg`,
         alt: 'Другий поверх, ліжко, шале'
     },
 
