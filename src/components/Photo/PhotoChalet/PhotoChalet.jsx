@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import FsLightbox from 'fslightbox-react';
 import cssCommonPhoto from '../PhotoCommon/PhotoCommon.module.scss';
 
@@ -8,12 +8,22 @@ import 'swiper/css/scrollbar';
 import { Scrollbar } from 'swiper/modules';
 
 import photoDataChalet from 'data/photoDataChalet';
+import { getImgForScreenSize } from 'components/utils/imgUtilsFsLght';
 
 function PhotoChalet() {
   const [lightboxController, setLightboxController] = useState({
     toggler: false,
     slide: 1,
   });
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => setScreenWidth(window.innerWidth);
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const openLightboxOnSlide = slideIndex => {
     setLightboxController({
@@ -67,7 +77,9 @@ function PhotoChalet() {
 
         <FsLightbox
           toggler={lightboxController.toggler}
-          sources={photoDataChalet.map(photo => photo.src)}
+          sources={photoDataChalet
+            .map(photo => getImgForScreenSize(photo, screenWidth))
+            .filter(screenWidth => screenWidth)}
           slide={lightboxController.slide}
         />
       </div>
