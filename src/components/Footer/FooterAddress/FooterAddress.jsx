@@ -18,7 +18,7 @@ function FooterAddress() {
               className={css.mapIcon}
               aria-label="Посилання на геоточку"
             >
-              <img src={mapIcon} alt="map" />
+              <img width='19' height={26} src={mapIcon} alt="map" />
             </a>
 
             <a

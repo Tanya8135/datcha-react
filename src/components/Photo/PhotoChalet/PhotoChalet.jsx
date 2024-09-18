@@ -61,6 +61,8 @@ function PhotoChalet() {
                 onClick={() => openLightboxOnSlide(index)}
               >
                 <img
+                  width="376"
+                  height="420"
                   srcSet={photo.srcSet}
                   sizes="(min-width: 1024px) 376px,
                       (min-width: 768px) 341px,

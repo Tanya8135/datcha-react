@@ -26,6 +26,8 @@ function Footer() {
                 className={cssForLogo.logo}
               >
                 <img
+                  width={200}
+                  height={42}
                   src={darkTheme === 'dark' ? logoDark : logo}
                   alt="logo"
                   className={cssForLogo.logoImg}
