@@ -33,7 +33,7 @@ function PhotoChalet() {
   };
 
   return (
-    <div>
+    <>
       <h4 className={cssCommonPhoto.subtitlePhoto}>Шале</h4>
 
       <div className={cssCommonPhoto.PhotoCommonBox}>
@@ -61,8 +61,9 @@ function PhotoChalet() {
                 onClick={() => openLightboxOnSlide(index)}
               >
                 <img
+                  loading="lazy"
                   width="376"
-                  height="420"
+                  height="320"
                   srcSet={photo.srcSet}
                   sizes="(min-width: 1024px) 376px,
                       (min-width: 768px) 341px,
@@ -85,7 +86,7 @@ function PhotoChalet() {
           slide={lightboxController.slide}
         />
       </div>
-    </div>
+    </>
   );
 }
 

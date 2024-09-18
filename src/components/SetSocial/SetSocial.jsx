@@ -11,7 +11,7 @@ function SetSocial({ iconColor }) {
   const darkTheme = useSelector(selectTheme);
 
   return (
-    <div>
+    <>
       <ul className={css.socialSet}>
         <li className={css.socialSetItem}>
           <a
@@ -56,7 +56,7 @@ function SetSocial({ iconColor }) {
           </a>
         </li>
       </ul>
-    </div>
+    </>
   );
 }
 

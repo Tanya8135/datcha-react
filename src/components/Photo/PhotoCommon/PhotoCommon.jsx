@@ -33,11 +33,11 @@ function PhotoCommon() {
   };
 
   return (
-    <div>
+    <>
       <div className={css.PhotoCommonContainer}>
         <h4 className={css.subtitlePhoto}>Загальні</h4>
 
-        <div className={css.PhotoCommonBox}>
+        {/* <div className={css.PhotoCommonBox}> */}
           <Swiper
             lazy={{ enabled: true }}
             className={`${css.swiperSlideMob} mySwiper`}
@@ -62,8 +62,9 @@ function PhotoCommon() {
                   onClick={() => openLightboxOnSlide(index)}
                 >
                   <img
+                    loading="lazy"
                     width="376"
-                    height="420"
+                    height="320"
                     srcSet={photo.srcSet}
                     sizes="(min-width: 1024px) 376px,
                       (min-width: 768px) 341px,
@@ -85,9 +86,9 @@ function PhotoCommon() {
               .filter(screenWidth => screenWidth)}
             slide={lightboxController.slide}
           />
-        </div>
+        {/* </div> */}
       </div>
-    </div>
+    </>
   );
 }
 
