@@ -2,7 +2,7 @@ import css from './BurgerMenuSocial.module.scss';
 
 function BurgerMenuSocial() {
   return (
-    <div>
+    <>
       <div className={css.burgerMenuSocial}>
         <ul className={css.burgerMenuSocialList}>
           <li className={css.burgerMenuSocialItem}>
@@ -43,7 +43,7 @@ function BurgerMenuSocial() {
           </li>
         </ul>
       </div>
-    </div>
+    </>
   );
 }
 

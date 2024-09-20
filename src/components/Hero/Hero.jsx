@@ -4,7 +4,7 @@ import SetSocial from 'components/SetSocial';
 
 function Hero() {
   return (
-    <div>
+    <>
       <section className={css.hero}>
         <div className={css.heroContaier}>
           <h1 className={css.titleHero}>Datcha</h1>
@@ -16,7 +16,7 @@ function Hero() {
           <SetSocial iconColor={css.iconHeroColor} />
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

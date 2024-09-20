@@ -23,7 +23,7 @@ function Modal({ isOpen, toggleModal }) {
   }, [isOpen]);
 
   return (
-    <div>
+    <>
       {isOpen && (
         <div
           className={css.backdrop}
@@ -166,7 +166,7 @@ function Modal({ isOpen, toggleModal }) {
           </div>
         </div>
       )}
-    </div>
+    </>
   );
 }
 

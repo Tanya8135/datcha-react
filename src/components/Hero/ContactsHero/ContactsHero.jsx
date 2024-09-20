@@ -4,7 +4,7 @@ import css from './ContactsHero.module.scss';
 
 function ContactsHero() {
   return (
-    <div>
+    <>
       <ul className={css.contactHero}>
         <li className={css.contactHeroItem}>
           <HiOutlineDevicePhoneMobile className={css.phoneIcon} />
@@ -27,7 +27,7 @@ function ContactsHero() {
           </a>
         </li>
       </ul>
-    </div>
+    </>
   );
 }
 

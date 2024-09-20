@@ -3,7 +3,7 @@ import mapIcon from '@img/logos_google-maps.svg';
 
 function BurgerMenuContacts() {
   return (
-    <div>
+    <>
       <div className={css.burgerMenuContacts}>
         <ul className={css.burgerMenuContactsList}>
           <li className={css.burgerMenuContactItem}>
@@ -53,7 +53,7 @@ function BurgerMenuContacts() {
           </div>
         </address>
       </div>
-    </div>
+    </>
   );
 }
 

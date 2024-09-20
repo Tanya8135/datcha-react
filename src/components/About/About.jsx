@@ -2,7 +2,7 @@ import css from './About.module.scss';
 
 function About() {
   return (
-    <div>
+    <>
       <section className={css.about} id="about">
         <h3 className={css.titleAbout}>Про нас</h3>
 
@@ -43,7 +43,7 @@ function About() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
 

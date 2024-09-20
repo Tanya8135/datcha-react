@@ -4,7 +4,7 @@ import mapIcon from '@img/logos_google-maps.svg';
 
 function FooterAddress() {
   return (
-    <div>
+    <>
       <address className={css.addressBox}>
         <div className={css.addressText}>
           <p className={cssForSubtitle.subtitleFooter}>
@@ -34,7 +34,7 @@ function FooterAddress() {
           </div>
         </div>
       </address>
-    </div>
+    </>
   );
 }
 

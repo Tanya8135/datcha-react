@@ -2,7 +2,7 @@ import css from "./BurgerMenuDescr.module.scss";
 
 function BurgerMenuDescr() {
   return (
-    <div>
+    <>
       <div className={css.burgerMenuDescr}>
         <ul className={css.burgerMenuDescrList}>
           <h2 className={css.burgerMenuDescrTitle}>Прайс</h2>
@@ -40,7 +40,7 @@ function BurgerMenuDescr() {
           </li>
         </ul>
       </div>
-    </div>
+    </>
   );
 }
 
