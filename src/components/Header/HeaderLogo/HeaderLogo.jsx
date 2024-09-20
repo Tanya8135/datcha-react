@@ -12,7 +12,7 @@ function HeaderLogo() {
   const darkTheme = useSelector(selectTheme);
 
   return (
-    <>
+    <div>
       <div className={css.logoHeader}>
         <NavLink to="/" className={css.logo} aria-label="На головну">
           <img
@@ -24,7 +24,7 @@ function HeaderLogo() {
           />
         </NavLink>
       </div>
-    </>
+    </div>
   );
 }
 
