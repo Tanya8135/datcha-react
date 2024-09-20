@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectTheme } from '../../redux/selectors';
 
@@ -20,8 +20,8 @@ function Footer() {
         <div className={css.footerContainer}>
           <div className={css.footerBox}>
             <div className={css.logoFooter}>
-              <NavLink
-                to="/"
+              <a
+                href="/datcha-react"
                 aria-label="На головну"
                 className={cssForLogo.logo}
               >
@@ -32,7 +32,7 @@ function Footer() {
                   alt="logo"
                   className={cssForLogo.logoImg}
                 />
-              </NavLink>
+              </a>
             </div>
 
             <FooterContact />

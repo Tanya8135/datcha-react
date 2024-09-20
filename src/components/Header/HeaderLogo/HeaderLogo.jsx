@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { selectTheme } from '../../../redux/selectors';
 
@@ -14,7 +14,7 @@ function HeaderLogo() {
   return (
     <div>
       <div className={css.logoHeader}>
-        <NavLink to="/" className={css.logo} aria-label="На головну">
+        <a href="/datcha-react" className={css.logo} aria-label="На головну">
           <img
             width={200}
             height={42}
@@ -22,7 +22,7 @@ function HeaderLogo() {
             alt="logo"
             className={css.logoImg}
           />
-        </NavLink>
+        </a>
       </div>
     </div>
   );
