@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/datcha-react/static/css/main.9c10c778.css",
-    "main.js": "/datcha-react/static/js/main.32d0a907.js",
+    "main.js": "/datcha-react/static/js/main.1debb17b.js",
     "static/css/871.598e5a96.chunk.css": "/datcha-react/static/css/871.598e5a96.chunk.css",
-    "static/js/871.289b0080.chunk.js": "/datcha-react/static/js/871.289b0080.chunk.js",
+    "static/js/871.418ec542.chunk.js": "/datcha-react/static/js/871.418ec542.chunk.js",
     "static/css/417.84b1d27a.chunk.css": "/datcha-react/static/css/417.84b1d27a.chunk.css",
     "static/js/417.862c2ec5.chunk.js": "/datcha-react/static/js/417.862c2ec5.chunk.js",
     "static/css/910.d7132d5a.chunk.css": "/datcha-react/static/css/910.d7132d5a.chunk.css",
@@ -31,9 +31,9 @@
     "static/media/logos_google-maps.svg": "/datcha-react/static/media/logos_google-maps.683c18762a0d29b0b7f049f32330c45c.svg",
     "index.html": "/datcha-react/index.html",
     "main.9c10c778.css.map": "/datcha-react/static/css/main.9c10c778.css.map",
-    "main.32d0a907.js.map": "/datcha-react/static/js/main.32d0a907.js.map",
+    "main.1debb17b.js.map": "/datcha-react/static/js/main.1debb17b.js.map",
     "871.598e5a96.chunk.css.map": "/datcha-react/static/css/871.598e5a96.chunk.css.map",
-    "871.289b0080.chunk.js.map": "/datcha-react/static/js/871.289b0080.chunk.js.map",
+    "871.418ec542.chunk.js.map": "/datcha-react/static/js/871.418ec542.chunk.js.map",
     "417.84b1d27a.chunk.css.map": "/datcha-react/static/css/417.84b1d27a.chunk.css.map",
     "417.862c2ec5.chunk.js.map": "/datcha-react/static/js/417.862c2ec5.chunk.js.map",
     "910.d7132d5a.chunk.css.map": "/datcha-react/static/css/910.d7132d5a.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.9c10c778.css",
-    "static/js/main.32d0a907.js"
+    "static/js/main.1debb17b.js"
   ]
 }
