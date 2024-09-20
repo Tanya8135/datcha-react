@@ -23,7 +23,7 @@ function ThemeToggle() {
   }, [darkTheme]);
 
   return (
-    <div>
+    <>
       <button
         className={css.btnTheme}
         aria-label="Перемикач теми"
@@ -38,7 +38,7 @@ function ThemeToggle() {
           <IoSunnyOutline className={css.iconTheme} />
         )}
       </button>
-    </div>
+    </>
   );
 }
 

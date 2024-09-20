@@ -15,7 +15,7 @@ function Footer() {
   const darkTheme = useSelector(selectTheme);
 
   return (
-    <div>
+    <>
       <footer className={css.footer} id="contacts">
         <div className={css.footerContainer}>
           <div className={css.footerBox}>
@@ -41,7 +41,7 @@ function Footer() {
           <BtnReserved />
         </div>
       </footer>
-    </div>
+    </>
   );
 }
 

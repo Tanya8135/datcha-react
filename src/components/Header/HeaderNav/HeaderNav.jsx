@@ -23,7 +23,7 @@ function HeaderNav() {
   };
 
   return (
-    <div>
+    <>
       <div className={css.headerNav}>
         <div className={css.headerNavBox}>
           <ul className={css.navSite}>
@@ -72,7 +72,7 @@ function HeaderNav() {
       )}
 
       <BurgerMenu isMenuOpen={isMenuOpen} toggleMenu={handleToggleMenu} />
-    </div>
+    </>
   );
 }
 

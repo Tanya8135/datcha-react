@@ -6,13 +6,13 @@ import Footer from 'components/Footer';
 
 function Main() {
   return (
-    <div>
+    <>
       <Header />
       <Hero />
       <About />
       <Photo />
       <Footer />
-    </div>
+    </>
   );
 }
 

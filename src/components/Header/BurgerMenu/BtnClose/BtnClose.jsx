@@ -9,7 +9,7 @@ function BtnClose({ toggleMenu }) {
   };
 
   return (
-    <div>
+    <>
       <button
         className={`${css.menuToggle} ${css.menuClose} ${css.jsCloseMenu}`}
         onClick={closeMenu}
@@ -17,7 +17,7 @@ function BtnClose({ toggleMenu }) {
       >
         <IoCloseOutline className={css.menuCloseIcon} />
       </button>
-    </div>
+    </>
   );
 }
 

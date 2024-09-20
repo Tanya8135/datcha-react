@@ -8,7 +8,7 @@ function FooterSocial() {
   const darkTheme = useSelector(selectTheme);
 
   return (
-    <div>
+    <>
       <div className={css.socialFooterContainer}>
         <div className={css.btnBoxReserved}>
           <a
@@ -22,7 +22,7 @@ function FooterSocial() {
         </div>
         <SetSocial iconColor={css.iconFooterColor} />
       </div>
-    </div>
+    </>
   );
 }
 
