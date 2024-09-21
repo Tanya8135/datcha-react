@@ -4,7 +4,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import { selectIsMenuOpen, selectIsModalOpen } from '../../../redux/selectors';
 import { toggleMenu, toggleModal } from '../../../redux/modalbmSlice';
 import { FiMenu } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
 
+import LanguageToggle from 'components/LanguageToggle';
 import BurgerMenu from '../BurgerMenu';
 import Modal from './Modal';
 import css from './HeaderNav.module.scss';
@@ -13,6 +15,7 @@ function HeaderNav() {
   const dispatch = useDispatch();
   const isMenuOpen = useSelector(selectIsMenuOpen);
   const isModalOpen = useSelector(selectIsModalOpen);
+  const { t } = useTranslation();
 
   const handleToggleMenu = () => {
     dispatch(toggleMenu());
@@ -24,6 +27,7 @@ function HeaderNav() {
 
   return (
     <>
+      <LanguageToggle />
       <div className={css.headerNav}>
         <div className={css.headerNavBox}>
           <ul className={css.navSite}>
@@ -39,12 +43,14 @@ function HeaderNav() {
             </li>
             <li className={css.navSiteItem}>
               <a href="#contacts" className={css.navSiteLink}>
-                Контакти
+                {/* Контакти */}
+                {t('contact')}
               </a>
             </li>
             <li className={css.navSiteItem}>
               <a href="#about" className={css.navSiteLink}>
-                Про нас
+                {/* Про нас */}
+                {t('about')}
               </a>
             </li>
             <li className={css.navSiteItem}>
@@ -60,7 +66,7 @@ function HeaderNav() {
             aria-expanded={isMenuOpen}
             aria-controls="mobile-menu"
             onClick={handleToggleMenu}
-            aria-label='Меню'
+            aria-label="Меню"
           >
             <FiMenu className={css.btnBurgerMenuIcon} />
           </button>
