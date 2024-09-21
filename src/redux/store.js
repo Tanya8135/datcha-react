@@ -1,6 +1,7 @@
 import { combineReducers, configureStore } from '@reduxjs/toolkit';
 import themeReducer from './themeSlice';
 import modalbmSlice from './modalbmSlice';
+import languageSlice from './languageSlice';
 // import persistTheme from './persistTheme';
 import {
     persistStore, persistReducer, FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER
@@ -14,15 +15,23 @@ const themePersistConfig = {
 
 const themePersistedReducer = persistReducer(themePersistConfig, themeReducer);
 
+const languagePersistConfig = {
+    key: 'language',
+    storage,
+}
+
+const languagePersistedReducer = persistReducer(languagePersistConfig, languageSlice)
+
 const rootReducer = combineReducers({
     theme: themePersistedReducer,
     menu: modalbmSlice,
+    language: languagePersistedReducer,
 });
 
 const persistConfig = {
     key: 'root',
     storage,
-    whitelist: ['theme', 'menu'],
+    whitelist: ['theme', 'menu', "language"],
 }
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

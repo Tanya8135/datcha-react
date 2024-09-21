@@ -12,12 +12,12 @@ function BurgerMenuDescr() {
             </p>
             <p className={css.burgerMenuDescrPrice}>150 грн</p>
           </li>
-          <li className={css.burgerMenuDescrItem}>
+          {/* <li className={css.burgerMenuDescrItem}>
             <p className={css.burgerMenuDescrText}>
               Перебування у буденний день
             </p>
             <p className={css.burgerMenuDescrPrice}>350 грн</p>
-          </li>
+          </li> */}
           <li className={css.burgerMenuDescrItem}>
             <p className={css.burgerMenuDescrText}>Перебування з заселенням</p>
             <p className={css.burgerMenuDescrPrice}>400 грн</p>

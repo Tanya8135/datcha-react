@@ -4,7 +4,7 @@ import translationEN from './locales/ru/translation.json';
 import translationUA from './locales/ua/translation.json';
 
 const resources = {
-    en: {
+    ru: {
         translation: translationEN
     },
     ua: {
