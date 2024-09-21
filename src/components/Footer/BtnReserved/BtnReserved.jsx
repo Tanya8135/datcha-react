@@ -19,7 +19,7 @@ function FooterSocial() {
             style={{ color: darkTheme === 'light' ? '#423d1b' : '#423d1b' }}
             aria-label="Забронювати відпочинок"
           >
-            <div className={css.textReserved}>{t('btnReserved')}</div>
+            <div className={css.textReserved}>{t('button.reserve')}</div>
           </a>
         </div>
         <SetSocial iconColor={css.iconFooterColor} />

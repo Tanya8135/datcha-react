@@ -44,13 +44,13 @@ function HeaderNav() {
             <li className={css.navSiteItem}>
               <a href="#contacts" className={css.navSiteLink}>
                 {/* Контакти */}
-                {t('contact')}
+                {t('nav.contact')}
               </a>
             </li>
             <li className={css.navSiteItem}>
               <a href="#about" className={css.navSiteLink}>
                 {/* Про нас */}
-                {t('about')}
+                {t('about.title')}
               </a>
             </li>
             <li className={css.navSiteItem}>

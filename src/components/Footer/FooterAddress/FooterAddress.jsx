@@ -11,7 +11,7 @@ function FooterAddress() {
       <address className={css.addressBox}>
         <div className={css.addressText}>
           <p className={cssForSubtitle.subtitleFooter}>
-            <b>{t('address')}</b>
+            <b>{t('nav.address')}</b>
           </p>
           <div className={css.mapBox}>
             <a
@@ -31,7 +31,7 @@ function FooterAddress() {
               className={css.addressLink}
               aria-label="Адреса: с. Чкаловка, пров. Набережний 5а"
             >
-              {t('alley')} <br />
+              {t('nav.alley')} <br />
               с. Чкаловка
             </a>
           </div>

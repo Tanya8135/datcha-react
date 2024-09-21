@@ -3,12 +3,15 @@ import { useSelector } from 'react-redux';
 import { selectTheme } from '../../../../redux/selectors';
 import { IoCloseOutline } from 'react-icons/io5';
 import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 import css from './Modal.module.scss';
+// import cssBM from '../../../Header/BurgerMenu/BurgerMenuContent/BurgerMenuContent.module.scss'
 import cssBtnClose from '../../BurgerMenu/BtnClose/BtnClose.module.scss';
 
 function Modal({ isOpen, toggleModal }) {
   const darkTheme = useSelector(selectTheme);
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (isOpen) {
@@ -47,27 +50,26 @@ function Modal({ isOpen, toggleModal }) {
 
               <ul className={css.textModal}>
                 <li className={css.textModalItem}>
-                  <p>Денне перебування без заселення - 150 грн</p>
+                  <p>{t('pricing.pricedescr1')} - 150 грн</p>
                 </li>
-                {/* <li className={css.textModalItem}>Перебування у буденний день - 300 грн з людини</li> */}
-                {/* <li className={css.textModalItem}>Перебування у вихідний день - 350 грн з людини</li> */}
+                {/* <li className={css.textModalItem}>{t('pricing.pricedescr2')} - 350 грн з людини</li> */}
                 <li className={css.textModalItem}>
-                  <p>Перебування з заселенням - 400 грн</p>
+                  <p>{t('pricing.pricedescr3')} - 400 грн</p>
                 </li>
 
                 <li className={`${css.textModalItem} ${css.psTextModal}`}>
-                  <p>(Ціна вказана за одну особу)</p>
+                  <p>({t('pricing.note')})</p>
                 </li>
               </ul>
 
-              <h3 className={css.subtitleModal}>У вартість входить:</h3>
+              <h3 className={css.subtitleModal}>{t('modal.subtitle')}</h3>
 
               <ul className={css.modalDescr}>
                 <li className={css.modalDescrItem}>
                   <p>мангал</p>
                 </li>
                 <li className={css.modalDescrItem}>
-                  <p>альтанка</p>
+                  <p>{t('modal.description')}</p>
                 </li>
                 <li className={css.modalDescrItem}>
                   <p>стоянка</p>
@@ -79,7 +81,7 @@ function Modal({ isOpen, toggleModal }) {
                   <b
                     className={`${css.subtitleModal} ${css.subtitleModalSecond}`}
                   >
-                    Зробити замовлення
+                    {t('modal.makeorder')}
                   </b>
                 </p>
                 <div className={css.modalContactBox}>

@@ -12,7 +12,7 @@ function Hero() {
       <section className={css.hero}>
         <div className={css.heroContaier}>
           <h1 className={css.titleHero}>Datcha</h1>
-          <h2 className={css.subtitleHero}>{t('subtitlehero')}</h2>
+          <h2 className={css.subtitleHero}>{t('hero.subtitle')}</h2>
         </div>
 
         <div className={css.heroBoxContactSocial}>
