@@ -25,11 +25,7 @@ function Modal({ isOpen, toggleModal }) {
   return (
     <>
       {isOpen && (
-        <div
-          className={css.backdrop}
-          data-modal
-          // style={{ background: darkTheme === 'light' ? '#fffbdd' : '#5b594b' }}
-        >
+        <div className={css.backdrop} data-modal>
           <div
             className={css.modal}
             onClick={e => e.stopPropagation()}

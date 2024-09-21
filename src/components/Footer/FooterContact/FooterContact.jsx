@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import { useTranslation } from 'react-i18next';
 import { selectTheme } from '../../../redux/selectors';
 import { HiOutlineDevicePhoneMobile } from 'react-icons/hi2';
 
@@ -6,12 +7,13 @@ import css from './FooterContact.module.scss';
 
 function FooterContact() {
   const darkTheme = useSelector(selectTheme);
+  const { t } = useTranslation();
 
   return (
     <div>
       <div className={css.contactBox}>
         <p className={css.subtitleFooter}>
-          <b>Контакти</b>
+          <b>{t('contact')}</b>
         </p>
 
         <ul className={css.contactList}>
@@ -51,7 +53,7 @@ function FooterContact() {
           aria-label="Забронювати відпочинок"
           style={{ color: darkTheme === 'light' ? '#423d1b' : '#423d1b' }}
         >
-          Забронювати
+          {t('btnReserved')}
         </a>
       </div>
     </div>
