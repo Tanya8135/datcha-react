@@ -32,12 +32,12 @@ function BurgerMenuDescr() {
         </ul>
 
         <ul className={css.burgerMenuSpetificList}>
-          <h3 className={css.butgerMenuSubtitle}>{t('subtitleModal')}</h3>
+          <h3 className={css.butgerMenuSubtitle}>{t('modal.subtitle')}</h3>
           <li className={css.burgerMenuItemSpetific}>
             <p className={css.burgerMenuSpetificText}>мангал</p>
           </li>
           <li className={css.burgerMenuItemSpetific}>
-            <p className={css.burgerMenuSpetificText}>{t('descrmodal')}</p>
+            <p className={css.burgerMenuSpetificText}>{t('modal.description')}</p>
           </li>
           <li className={css.burgerMenuItemSpetific}>
             <p className={css.burgerMenuSpetificText}>стоянка</p>

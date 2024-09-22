@@ -27,7 +27,7 @@ function FooterContact() {
               className={css.contactLink}
               aria-label="Подзвонити 067 560 94 82"
             >
-              380675609482
+              0675609482
             </a>
           </li>
           <li className={css.contactItem}>
