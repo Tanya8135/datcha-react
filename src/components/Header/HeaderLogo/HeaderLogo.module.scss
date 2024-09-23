@@ -20,7 +20,7 @@
     width: 170px;
   }
 
-  @include tabletMin {
+  @include desktop {
     width: 200px;
   }
 }

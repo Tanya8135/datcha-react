@@ -1,17 +1,18 @@
 @import '@css/index.scss';
 
-.btnTest {
-  color: $secondary-color !important;
-  margin-right: 32px;
-}
-
 .toggleLng {
   position: relative;
   width: 46px;
   height: 21px;
+  margin: 0 15px;
   background-color: $bg-btn;
   border-radius: 50px;
   cursor: none;
+
+  @include desktop {
+    width: 56px;
+    height: 25px;
+  }
 }
 
 .circleLng {
@@ -27,11 +28,20 @@
   &.activeR {
     transform: translateX(25px);
     transition: transform 150ms ease;
+
+    @include desktop {
+      transform: translateX(31px);
+    }
   }
 
   &.activeL {
     transform: translateX(0px);
     transition: transform 150ms ease;
+  }
+
+  @include desktop {
+    width: 25px;
+    height: 25px;
   }
 }
 
@@ -40,10 +50,19 @@
   position: absolute;
   top: 2px;
   left: 3.5px;
+
+  @include desktop {
+    top: 3.5px;
+    left: 4px;
+  }
 }
 
 .itemLng {
   margin-right: 4px;
+
+  @include desktop {
+    margin-right: 7px;
+  }
 }
 
 .textLng {
@@ -51,5 +70,9 @@
 
   & {
     color: $secondary-color !important;
+  }
+
+  @include desktop {
+    font-size: 14px;
   }
 }

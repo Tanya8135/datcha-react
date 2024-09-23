@@ -2,6 +2,7 @@
 
 .header {
   & {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,9 +11,8 @@
     /* margin: 0 auto; */
   }
 
-  @include tabletMin {
-    position: relative;
-    padding: 20px 32px;
+  @include tablet {
+    padding: 20px 15px;
   }
 
   @include desktop {
@@ -31,10 +31,21 @@
   @include tabletMin {
     position: absolute;
     // top: 10px;
-    right: 32px;
+    right: 20px;
   }
 
   // @include desktop {
   //   right: 32px;
   // }
+}
+
+.lngToggle {
+  @include tabletMin {
+    position: absolute;
+    right: 60px;
+  }
+
+  @include desktop {
+    right: 76px;
+  }
 }

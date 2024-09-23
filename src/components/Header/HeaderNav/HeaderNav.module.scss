@@ -8,12 +8,12 @@
   @include tabletMin {
     display: flex;
     justify-content: center;
-    margin-right: 52px;
+    margin-right: 106px;
   }
 
-  @include desktop {
-    margin-right: 0;
-  }
+  // @include desktop {
+  //   margin-right: 0;
+  // }
 }
 
 .navSiteItem {
@@ -24,6 +24,18 @@
   @include tabletMin {
     display: block;
     margin-right: 32px;
+
+    &.contactWord {
+      width: 99px;
+    }
+
+    &.aboutWord {
+      width: 78px;
+
+      @include desktop {
+        width: 88px;
+      }
+    }
   }
 
   @include desktop {
@@ -39,11 +51,15 @@
 
   @include tabletMin {
     display: block;
-    @include short-font(20px, 0.05em);
+    @include short-font(18px, 0.05em);
   }
 
   @include tablet {
     cursor: none;
+  }
+
+  @include desktop {
+    font-size: 20px;
   }
 }
 

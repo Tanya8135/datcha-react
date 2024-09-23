@@ -31,7 +31,7 @@ function LanguageToggle() {
     <>
       <div className={css.toggleLng} onClick={handleToggleClick}>
         <div
-          className={`${css.circleLng} ${isActive ? css.activeR : css.activeL}`}
+          className={`${css.circleLng} ${isActive ? css.activeL : css.activeR}`}
         ></div>
 
         <ul className={css.listLng}>

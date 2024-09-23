@@ -6,7 +6,7 @@ import { toggleMenu, toggleModal } from '../../../redux/modalbmSlice';
 import { FiMenu } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 
-import LanguageToggle from 'components/LanguageToggle';
+// import LanguageToggle from 'components/LanguageToggle';
 import BurgerMenu from '../BurgerMenu';
 import Modal from './Modal';
 import css from './HeaderNav.module.scss';
@@ -27,7 +27,7 @@ function HeaderNav() {
 
   return (
     <>
-      <LanguageToggle />
+      {/* <LanguageToggle /> */}
       <div className={css.headerNav}>
         <div className={css.headerNavBox}>
           <ul className={css.navSite}>
@@ -41,13 +41,13 @@ function HeaderNav() {
                 Прайс
               </button>
             </li>
-            <li className={css.navSiteItem}>
+            <li className={`${css.navSiteItem} ${css.contactWord}`}>
               <a href="#contacts" className={css.navSiteLink}>
                 {/* Контакти */}
                 {t('nav.contact')}
               </a>
             </li>
-            <li className={css.navSiteItem}>
+            <li className={`${css.navSiteItem} ${css.aboutWord}`}>
               <a href="#about" className={css.navSiteLink}>
                 {/* Про нас */}
                 {t('about.title')}
