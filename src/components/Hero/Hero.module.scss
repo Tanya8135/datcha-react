@@ -13,14 +13,14 @@
     // max-width: 414px;
     max-width: 1024px;
     background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
-      url('~@images/bgr-img-mob.jpg');
+      url('~@images/bg-fon-mob.webp');
 
     @include retina {
       background-image: linear-gradient(
           $bg-fon-transparent,
           $bg-fon-transparent
         ),
-        url('~@images/bgr-img-mob@2.jpg');
+        url('~@images/bg-fon-mob@2.webp');
     }
   }
 
@@ -29,14 +29,14 @@
 
     // max-width: 1024px;
     background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
-      url('~@images/bgr-img-tabl.jpg');
+      url('~@images/bg-fon-tabl.webp');
 
     @include retina {
       background-image: linear-gradient(
           $bg-fon-transparent,
           $bg-fon-transparent
         ),
-        url('~@images/bgr-img-tabl@2.jpg');
+        url('~@images/bg-fon-tabl@2.webp');
     }
   }
 
@@ -45,14 +45,14 @@
 
     max-width: 1600px;
     background-image: linear-gradient($bg-fon-transparent, $bg-fon-transparent),
-      url('~@images/bgr-img-desk.jpg');
+      url('~@images/bg-fon-desk.webp');
 
     @include retina {
       background-image: linear-gradient(
           $bg-fon-transparent,
           $bg-fon-transparent
         ),
-        url('~@images/bgr-img-desk@2.jpg');
+        url('~@images/bg-fon-desk@2.webp');
     }
   }
 }
