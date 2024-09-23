@@ -1,7 +1,10 @@
+import { useTranslation } from 'react-i18next';
 import css from './BurgerMenuContacts.module.scss';
 import mapIcon from '@img/logos_google-maps.svg';
 
 function BurgerMenuContacts() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className={css.burgerMenuContacts}>
@@ -47,7 +50,7 @@ function BurgerMenuContacts() {
               className={css.burgerMenuAddressNameLink}
               aria-label="Адреса: с. Чкаловка, пров. Набережний 5а"
             >
-              пров. Набережний 5а <br />
+              {t('nav.alley')} <br />
               с. Чкаловка
             </a>
           </div>

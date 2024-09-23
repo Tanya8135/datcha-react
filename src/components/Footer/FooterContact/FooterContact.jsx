@@ -13,7 +13,7 @@ function FooterContact() {
     <div>
       <div className={css.contactBox}>
         <p className={css.subtitleFooter}>
-          <b>{t('contact')}</b>
+          <b>{t('nav.contact')}</b>
         </p>
 
         <ul className={css.contactList}>
@@ -27,7 +27,7 @@ function FooterContact() {
               className={css.contactLink}
               aria-label="Подзвонити 067 560 94 82"
             >
-              380675609482
+              0675609482
             </a>
           </li>
           <li className={css.contactItem}>
@@ -53,7 +53,7 @@ function FooterContact() {
           aria-label="Забронювати відпочинок"
           style={{ color: darkTheme === 'light' ? '#423d1b' : '#423d1b' }}
         >
-          {t('btnReserved')}
+          {t('button.reserve')}
         </a>
       </div>
     </div>

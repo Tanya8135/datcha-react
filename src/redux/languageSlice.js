@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     language: 'ua',
+    isActive: false,
 };
 
 const languageSlice = createSlice({
@@ -11,6 +12,7 @@ const languageSlice = createSlice({
     reducers: {
         changeLanguage: (state, action) => {
             state.language = action.payload;
+            state.isActive = action.payload === 'ru';
         },
     },
 });

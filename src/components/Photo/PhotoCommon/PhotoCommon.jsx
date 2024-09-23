@@ -37,7 +37,7 @@ function PhotoCommon() {
   return (
     <>
       <div className={css.PhotoCommonContainer}>
-        <h4 className={css.subtitlePhoto}>{t('subtitlePhoto1')}</h4>
+        <h4 className={css.subtitlePhoto}>{t('photo.subtitle')}</h4>
 
         {/* <div className={css.PhotoCommonBox}> */}
         <Swiper

@@ -4,6 +4,7 @@ import css from './Header.module.scss';
 import HeaderLogo from './HeaderLogo';
 import HeaderNav from './HeaderNav/HeaderNav';
 import ThemeToggle from 'components/ThemeToggle';
+import LanguageToggle from 'components/LanguageToggle';
 
 function Header() {
   return (
@@ -13,6 +14,9 @@ function Header() {
         <div className={css.headerBox}>
           <div className={css.themeToggle}>
             <ThemeToggle />
+          </div>
+          <div className={css.lngToggle}>
+            <LanguageToggle />
           </div>
 
           <HeaderNav />
