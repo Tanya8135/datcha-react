@@ -4,3 +4,52 @@
   color: $secondary-color !important;
   margin-right: 32px;
 }
+
+.toggleLng {
+  position: relative;
+  width: 46px;
+  height: 21px;
+  background-color: $bg-btn;
+  border-radius: 50px;
+  cursor: none;
+}
+
+.circleLng {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 21px;
+  height: 21px;
+  background-color: $bg-circle-toggle;
+  border-radius: 50%;
+  z-index: 900;
+
+  &.activeR {
+    transform: translateX(25px);
+    transition: transform 150ms ease;
+  }
+
+  &.activeL {
+    transform: translateX(0px);
+    transition: transform 150ms ease;
+  }
+}
+
+.listLng {
+  display: flex;
+  position: absolute;
+  top: 2px;
+  left: 3.5px;
+}
+
+.itemLng {
+  margin-right: 4px;
+}
+
+.textLng {
+  @include font(12px, 300, 0.03em);
+
+  & {
+    color: $secondary-color !important;
+  }
+}
