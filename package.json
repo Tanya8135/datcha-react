@@ -2,7 +2,6 @@
   "name": "datcha-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Tanya8135.github.io/datcha-react/",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@react-icons/all-files": "^4.1.0",
