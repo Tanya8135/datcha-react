@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename='/datcha-react'>
+        <BrowserRouter basename=''>
           <I18nextProvider i18n={i18n}>
             <App />
           </I18nextProvider>
